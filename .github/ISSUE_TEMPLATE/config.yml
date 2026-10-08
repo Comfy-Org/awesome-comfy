@@ -1,0 +1,14 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Proposing a new section, or a change to the structure
+    url: https://github.com/Comfy-Org/comfy-awesome/issues/new
+    about: Open a blank issue and say what a reader cannot find in the list as it stands.
+  - name: Help with Comfy itself
+    url: https://discord.com/invite/comfyorg
+    about: Install problems, workflow questions and day-to-day help happen in Discord.
+  - name: Longer questions
+    url: https://forum.comfy.org/
+    about: The forum, for questions worth keeping around.
+  - name: A bug in Comfy, or in a node pack
+    url: https://docs.comfy.org/troubleshooting/overview
+    about: Troubleshoot first, then file it on the project that has the bug. This repository only links to projects.

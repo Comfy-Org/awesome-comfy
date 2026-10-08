@@ -1,0 +1,84 @@
+name: Suggest an entry
+description: Propose something for the list without opening a pull request.
+title: "Suggest: "
+labels: ["suggestion"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        A [pull request](https://github.com/Comfy-Org/comfy-awesome/blob/main/SUBMISSION_GUIDELINES.md) is faster, and it is one line in one file. This form is here for when you would rather not open one.
+
+  - type: input
+    id: url
+    attributes:
+      label: Link
+      description: It has to open for a stranger with no account.
+      placeholder: https://github.com/you/your-project
+    validations:
+      required: true
+
+  - type: input
+    id: line
+    attributes:
+      label: The entry, as you would write it
+      description: Name, then one sentence saying what it does, ending in a period. No marketing, no emoji.
+      placeholder: "- [Name](https://example.com) - Does the thing, for the people who need the thing."
+    validations:
+      required: true
+
+  - type: dropdown
+    id: section
+    attributes:
+      label: Which section
+      options:
+        - Built with Comfy
+        - Work made with Comfy
+        - Workflows
+        - Build your own
+        - Node packs
+        - Writing your own nodes
+        - Hosting
+        - Getting started
+        - Learning
+        - Not sure
+    validations:
+      required: true
+
+  - type: textarea
+    id: why
+    attributes:
+      label: Why does it belong
+      description: What does a reader get from this that an entry already on the list does not give them? If it overlaps something, say what yours does differently.
+    validations:
+      required: true
+
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Public evidence of the Comfy connection
+      description: Only needed for Built with Comfy and Work made with Comfy. Quote the sentence that says Comfy was used, and link where it is published.
+    validations:
+      required: false
+
+  - type: dropdown
+    id: disclosure
+    attributes:
+      label: Did you make this
+      description: Self-submissions are the point, not a problem.
+      options:
+        - I made it or worked on it
+        - Someone else made it
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: bar
+    attributes:
+      label: Before you file
+      options:
+        - label: The link loads and returns 200. I checked it today.
+          required: true
+        - label: If this is a node pack, it is published in the Comfy Registry.
+          required: false
+        - label: I read the guidelines, and the limitations are in the line.
+          required: true

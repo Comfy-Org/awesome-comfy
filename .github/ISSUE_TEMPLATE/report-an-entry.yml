@@ -1,0 +1,66 @@
+name: Report an entry
+description: Something on the list is dead, misdescribed, harmful, or should not be here.
+title: "Report: "
+labels: ["report"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Reporting an entry is welcome and useful. So is opening a pull request that removes it, if you would rather do that.
+
+        **If you have found a security vulnerability in a listed project, report it to that project first**, through its own issue tracker or GitHub's private vulnerability reporting. This repository only links to projects; it does not host or ship their code, and a public issue here tells the author's users before the author.
+
+  - type: input
+    id: entry
+    attributes:
+      label: Which entry
+      description: Paste the line from README.md, or its name and URL.
+      placeholder: "- [Name](https://example.com) - One sentence."
+    validations:
+      required: true
+
+  - type: dropdown
+    id: reason
+    attributes:
+      label: What is wrong with it
+      options:
+        - The link is dead, or the project was deleted or archived
+        - The project is abandoned and the entry does not say so
+        - The entry misdescribes what the project does
+        - The project does something harmful
+        - It exposes private information or an unauthenticated destructive action
+        - I am the rights holder and I object to how my name, mark or work appears
+        - Something else
+    validations:
+      required: true
+
+  - type: textarea
+    id: detail
+    attributes:
+      label: What happened
+      description: What you saw, and what a reader of the entry would have expected.
+    validations:
+      required: true
+
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidence
+      description: |
+        For anything harmful, be specific. A scanner result on its own does not settle a case: node packs legitimately read files, write to disk and reach the network, and scanners produce false positives.
+
+        Give the version or commit, the exact file and lines, what the code does, and a second independent source where you have one. For a dead link, the status code you got and the date is enough.
+    validations:
+      required: false
+
+  - type: dropdown
+    id: contacted
+    attributes:
+      label: Have you raised it with the project's author
+      description: Not required, but it usually resolves faster and the entry can often be corrected instead of removed.
+      options:
+        - "Yes"
+        - "No"
+        - "The project has no working contact route"
+    validations:
+      required: false
