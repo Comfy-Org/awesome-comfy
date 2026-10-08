@@ -1,0 +1,109 @@
+# Submitting an entry
+
+Built something with Comfy? Add it. It is one line, in one file, in one pull request.
+
+This page is the path. [CONTRIBUTING.md](CONTRIBUTING.md) is the bar an entry has to clear, and it is worth a skim before you start. Work you made yourself is the most welcome kind of submission.
+
+## The whole thing, in one example
+
+Open [README.md](README.md), press the edit pencil, and add one line to the group your project belongs in:
+
+```
+- [krita-ai-diffusion](https://github.com/Acly/krita-ai-diffusion) - Inpainting, outpainting and live painting inside Krita, against a local or remote Comfy server.
+```
+
+The shape is always the same:
+
+```
+- [Name](https://url) - One sentence, ending in a period.
+```
+
+- **Name** as its author writes it. The repository name is usually right.
+- **URL** that a stranger with no account can open, and that returns 200 today.
+- **One sentence** saying what it does. Not what it aspires to.
+
+Then open the pull request and fill in the template. Nothing else is required.
+
+## Where does it go
+
+| What you have | Section | Heading |
+|---|---|---|
+| A product, tool or app that runs Comfy underneath | Built with Comfy | From the community |
+| A film, campaign, game, installation or exhibited work | Work made with Comfy | no heading, see below |
+| A runnable workflow, or a spec for the workflow format | Workflows | From the community |
+| A library, SDK, client or code generator for driving Comfy | Build your own | From the community |
+| A custom node pack | Node packs | From the community |
+| A template or tool for people writing nodes | Writing your own nodes | From the community |
+| A hosting provider, container image or deployment recipe | Hosting | From the community |
+| An install path or first-run guide | Getting started | From the community |
+| Docs, a course, a channel, a wiki, a community space | Learning | From the community |
+
+Your entry goes under **From the community** unless Comfy Org builds and maintains it, in which case someone at Comfy will say so in review. Being a Comfy partner, customer or integration does not make an entry **From Comfy**.
+
+**Work made with Comfy** has no affiliation heading, because the work there is always the maker's own. Pick the sub-group that fits: film and television, advertising and campaigns, games and 3D, public art and installations, teaching.
+
+If nothing fits, [open an issue](https://github.com/Comfy-Org/comfy-awesome/issues/new) and say what a reader cannot currently find. Adding a section is a bigger change than adding an entry.
+
+## The description line
+
+One sentence. What it does, who it is for if that is not obvious from the name, and what it does not do. Then stop.
+
+Good:
+
+```
+- [ComfyUI-Inpaint-CropAndStitch](https://github.com/lquesada/ComfyUI-Inpaint-CropAndStitch) - Crops to the mask before sampling and stitches back after, which makes inpainting much faster.
+- [sd-ppp](https://github.com/zombieyang/sd-ppp) - Drives Comfy from Photoshop, reading and writing layers directly.
+- [ComfyUI_essentials](https://github.com/cubiq/ComfyUI_essentials) - Image, mask and conditioning primitives missing from core. In maintenance mode.
+```
+
+Each of those says what the thing does, and the third says what you also need to know before you install it.
+
+Not good, and why:
+
+| Line | Problem |
+|---|---|
+| `- [FooNodes](...) - The best and most powerful node pack for ComfyUI!` | Superlatives. Say what the nodes do. |
+| `- [FooNodes](...) - A node pack.` | Says nothing a reader can act on. |
+| `- [FooNodes](...) - Nodes for video. Also has masks. Plus some samplers. Work in progress, more coming soon!` | Several sentences, and a roadmap. One sentence, present tense, what exists today. |
+| `- [FooApp](...) - The next-generation creative suite, reimagined` | Marketing, no period, and still does not say what it does. No emoji either. |
+| `- [FooApp](...) - Generates video from text.` when it plays a pre-rendered clip | Claims behaviour the thing does not have. This gets closed. |
+
+Limitations belong in the line. One platform only, one model family only, a weekend build rather than a product: say so. It makes the entry more useful, not less, and it is the difference between a reader thanking you and a reader filing an issue.
+
+## What gets turned down
+
+Most of these are fixable in a follow-up commit. Nobody is being judged.
+
+- **A stranger cannot open it.** Private repository, login wall on the landing page, invite-only space, dead link.
+- **The link does not resolve.** Check it the day you submit.
+- **Comfy is optional.** If Comfy is one backend among several and the project works fine without it, it is not built with Comfy.
+- **Something already covers it.** Say what yours does differently. Two entries doing the same thing is a reason to replace one, not to add another.
+- **A node pack is not in the [Comfy Registry](https://registry.comfy.org/).** Publish it first, then submit.
+- **Nothing has happened in a long time.** A repository needs a recent commit and must not be archived. If the author has called it finished, say so in the pull request and the line can carry that.
+- **The showcase claim is not public.** For **Built with Comfy** and **Work made with Comfy**, the Comfy connection has to be stated somewhere a reader can check. Quote that sentence in the pull request and link it. "I am fairly sure they used it" does not clear the bar.
+- **It is a model or a checkpoint.** This list indexes work and tools, not weights.
+- **It leaks something.** Private addresses, internal URLs, keys, customer data. Also any public app that exposes a destructive action to anonymous visitors.
+
+The full list is in [CONTRIBUTING.md](CONTRIBUTING.md).
+
+## What happens after you open it
+
+Expect a first reply within a week. Most pull requests either merge or come back with one comment about the description line, and a one-line fix is usually all it takes.
+
+One pull request per addition, unless the additions are a coherent set. If you are changing someone else's entry, or removing one, say why in the description. Removals are welcome.
+
+## If you would rather not open a pull request
+
+[Suggest an entry](https://github.com/Comfy-Org/comfy-awesome/issues/new?template=suggest-an-entry.yml) in an issue and someone will pick it up. It is slower than a pull request.
+
+## Submitting on behalf of someone else
+
+Fine, and often useful. Link the public evidence, do not speak for the author, and do not claim features you have not seen work.
+
+## What a listing means, and does not
+
+Entries under **From the community** are made and maintained by other people. An entry is checked against the bar for fit, not audited for safety. Comfy Org does not certify that a listed project is safe, does not vet its code, models or data, and does not take responsibility for what it does. Readers install at their own risk, and the [note in the README](README.md#installing-third-party-projects) says so plainly.
+
+By submitting, you are confirming that the entry text is yours to contribute under [CC0-1.0](LICENSE). That covers the line you wrote here. It does not change the license of the project you are linking to, and it does not transfer any name, logo or trademark.
+
+If something on the list turns out to be malicious, misleading or harmful, [report it](https://github.com/Comfy-Org/comfy-awesome/issues/new?template=report-an-entry.yml) and the entry will be removed.
