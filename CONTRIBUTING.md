@@ -8,6 +8,8 @@ Submitting something? [SUBMISSION_GUIDELINES.md](SUBMISSION_GUIDELINES.md) is th
 
 1. **It is public and openable by a stranger.** No private repositories, no login walls on the landing page, no invite-only spaces. If a reader cannot open it, it does not go in.
 2. **The link resolves.** Every URL must load and return 200. Check it the day you submit. A dead link is a bug, and a link that cannot be opened is the same as a dead one.
+
+   A 200 is not proof the page exists. Plenty of hosts serve a soft 200 for a path that is gone, including Steam app pages, YouTube watch URLs, registry node pages, Notion sites and OpenArt. Open the page and confirm it contains what your line says. Two checks that do not lie: `https://api.comfy.org/nodes/<id>` for a node pack, and YouTube's oembed endpoint for a video.
 3. **It is described honestly.** One line, factual, no marketing. If something only works on one platform, only with one model family, or is a weekend build rather than a product, the line should say so.
 
 ## The extra bar for showcase entries

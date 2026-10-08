@@ -1,6 +1,6 @@
 # Awesome Comfy
 
-Things people have built with Comfy: apps you can open, films and campaigns that shipped, and workflows you can run, plus the APIs, SDKs and node packs for building your own.
+Things people have built with Comfy: apps and plugins people shipped, films and campaigns that aired, and workflows you can run, plus the APIs, SDKs and node packs for building your own.
 
 For artists who want to see what is possible, and for engineers who want to know where to start.
 
@@ -52,9 +52,20 @@ Made and maintained by other people. Read [Installing third-party projects](#ins
 **Tools that put Comfy inside something else:**
 
 - [krita-ai-diffusion](https://github.com/Acly/krita-ai-diffusion) - Inpainting, outpainting and live painting inside Krita, against a local or remote Comfy server.
-- [SwarmUI](https://github.com/mcmonkeyprojects/SwarmUI) - A forms-first front end over the same engine, with a Comfy workflow tab when you want the graph back.
 - [sd-ppp](https://github.com/zombieyang/sd-ppp) - A Photoshop plugin that sends layers and selections to Comfy, or to hosted model APIs, and brings the results back as layers.
+- [OpenLayer](https://mehran-ahmadi.com/OpenLayer/) - A Photoshop panel that generates, inpaints and upscales through your own Comfy server and hands back editable layers. Alpha.
 - [ComfyUI-BlenderAI-node](https://github.com/AIGODLIKE/ComfyUI-BlenderAI-node) - Builds and runs Comfy graphs from inside Blender's node editor.
+- [StableGen](https://github.com/sakalond/StableGen) - A Blender addon that textures 3D meshes through a Comfy backend using multi-view projection.
+- [ComfyUI-for-Nuke](https://github.com/vinavfx/ComfyUI-for-Nuke) - Builds and runs Comfy graphs inside Foundry Nuke, against your own Comfy server.
+- [ComfyUI-TD](https://github.com/JiSenHua/ComfyUI-TD) - Streams images, video, point clouds and audio from Comfy into TouchDesigner in real time.
+- [SwarmUI](https://github.com/mcmonkeyprojects/SwarmUI) - A forms-first front end over the same engine, with a Comfy workflow tab when you want the graph back.
+
+**Apps on top of your own Comfy:**
+
+- [ComfyTV](https://github.com/jtydhr88/ComfyTV) - Turns Comfy into a canvas app where each stage is its own node, across image, video, audio and 3D.
+- [Velorn](https://velorn.ai) - An open-source desktop video workstation that runs any Comfy workflow on a timeline, locally or in the cloud.
+- [ComfyLink](https://comfylink.app) - An iOS and Android remote for your own Comfy machine, paired through a node you install in Comfy.
+- [ComfyUI Metadata Viewer](https://huggingface.co/spaces/QES/ComfyUI_Metadata_Viewer) - Drop a Comfy output file in the browser and read back the models, parameters and prompt embedded in it.
 
 ### From Comfy
 
@@ -84,10 +95,6 @@ Made and maintained by other people. Read [Installing third-party projects](#ins
 - [smile-compliance](https://github.com/Comfy-Org/comfy-examples/tree/main/smile-compliance) - People Ops has flagged your photo for insufficient enthusiasm. Works on people, pets, objects and produce.
 - [virtual-try-on](https://github.com/Comfy-Org/comfy-examples/tree/main/virtual-try-on) - Pair a person photo with a garment photo and dress one in the other.
 
-**Browse further:**
-
-- [Community apps](https://comfy.org/hub/models/?type=apps) - Apps published by the community.
-
 ## Work made with Comfy
 
 Films, campaigns, games and public art. The work is the makers' own, and the credit belongs to the people and studios named in each line. Most of the links are write-ups published by Comfy, so the two headings used elsewhere in this list do not apply here.
@@ -106,11 +113,17 @@ Films, campaigns, games and public art. The work is the makers' own, and the cre
 **Advertising and campaigns:**
 
 - [Svedka, Shake Your Bots Off](https://comfy.org/customers/svedka-silverside/) - Silverside AI rebuilt Svedka's lost Fembot on Comfy workflows for a Super Bowl LX spot.
-- [Groove Jones, Crocs x NFL](https://comfy.org/customers/groove-jones/) - A hyper-realistic faux out-of-home holiday campaign, delivered against a short deadline.
+- [Groove Jones, Dick's Sporting Goods](https://comfy.org/customers/groove-jones/) - A hyper-realistic faux out-of-home holiday campaign for the Crocs x NFL collection, delivered against a short deadline.
+- [Don Diablo, Blackout](https://www.youtube.com/watch?v=cPMNIIZkNIs) - Music video whose image work, including identity modelling and stylization, was done locally in Comfy. ([write-up](https://blogs.nvidia.com/blog/rtx-ai-garage-don-diablo-gen-ai-music-video))
 - [Silverside AI](https://comfy.org/customers/videos/silverside-ai/) - Silverside AI on why node-based workflows give a creative team more control than single-prompt tools. Video.
 - [Black Math](https://comfy.org/customers/videos/black-math/) - Artists and technical directors on building extendable creative systems while keeping art direction. Video.
 
-**Games and 3D:**
+**Games:**
+
+- [ComfyCrawler](https://mowmeow.net/ComfyCrawlerTest/) - A dungeon crawler in a Windows 95 interface, with its art and music generated in Comfy. The hosted build is a read-only edition.
+- [Rise of the Penguins GB](https://billwoo.itch.io/rise-of-the-penguins-gb) - A Game Boy style action platformer playable in the browser. The developer credits Comfy among the tools used for its pixel art.
+
+**Studios and 3D:**
 
 - [Series Entertainment](https://comfy.org/customers/series-entertainment/) - Over 100,000 assets across multiple Netflix titles, kept consistent by repeatable workflows. ([case study](https://blog.comfy.org/p/case-study-how-series-entertainment))
 - [Ubisoft CHORD](https://comfy.org/customers/ubisoft-chord/) - Ubisoft La Forge open-sourced its PBR material estimation model with Comfy custom nodes. ([announcement](https://blog.comfy.org/p/ubisoft-open-sources-the-chord-model))
