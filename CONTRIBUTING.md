@@ -2,6 +2,8 @@
 
 This list indexes what people have built with Comfy, and the tools they built it with. Work you made yourself is the most welcome kind of submission, so say it is yours and submit it.
 
+Submitting something? [SUBMISSION_GUIDELINES.md](SUBMISSION_GUIDELINES.md) is the short path: where the entry goes, how the line is shaped, and what happens next. This file is the bar an entry has to clear, and it is the one that settles arguments.
+
 ## The bar for everything
 
 1. **It is public and openable by a stranger.** No private repositories, no login walls on the landing page, no invite-only spaces. If a reader cannot open it, it does not go in.
@@ -23,6 +25,16 @@ For anything in **Built with Comfy** or **Work made with Comfy**:
 9. **Comfy is load-bearing.** A tool where Comfy is one optional backend among many is not "built with Comfy". The README should say Comfy is what it runs on.
 10. **It is distinct.** If an existing entry covers the same ground, say what yours does differently. Two tools that do the same thing is a reason to replace, not append.
 11. **A node pack is in the registry.** If the submission is a node pack, it is published in the [Comfy Registry](https://registry.comfy.org/).
+
+## Which heading an entry goes under
+
+Most sections are split into **From Comfy** and **From the community**. The split is about one thing: who maintains and supports the project at the other end of the link.
+
+12. **From Comfy** is for projects Comfy Org builds, maintains or officially supports. In practice that is the `Comfy-Org` GitHub organisation, `comfy.org` and its subdomains, and the official Discord, forum and YouTube channel. Nothing else qualifies, including a fork of a Comfy Org project.
+13. **A partner, customer or integration is not From Comfy.** A hosting provider that runs Comfy, a studio that shipped work with it, a partner model reachable through a Comfy API: all of those are **From the community**. Where a partner model sits behind a Comfy API, the API is Comfy's and the model is the partner's, and the entry follows whichever one it links to.
+14. **Neither heading is a rating.** Do not move an entry between headings to signal quality, maturity or preference, and do not add a third heading for a closer relationship. If affiliation is genuinely unclear, say so in the pull request rather than picking one.
+
+**Work made with Comfy** is the exception and carries no headings. The work in that section is always the maker's own, even though most of the links are write-ups published by Comfy.
 
 ## What does not belong
 
@@ -46,24 +58,29 @@ curl -s "https://api.comfy.org/nodes?page=1&limit=100&sort=total_install%3Bdesc&
 
 Do not reorder it by hand. If a pack belongs there, it will arrive on the next refresh.
 
-Other sections lead with the things most worth a reader's first click.
+Other sections lead with the things most worth a reader's first click. That applies to the **From Comfy** and **From the community** headings too: either can come first in a section, whichever puts the better first click at the top. The headings label the groups, they do not rank them.
 
 ## How to propose an addition
 
-1. Fork and branch.
-2. Add one entry per line, in the section it belongs to, in the format used by the rest of the file:
-
-   ```
-   - [Name](https://example.com) - One factual line, ending in a period.
-   ```
-
-3. Open a pull request and complete the checklist in the template.
-
-One pull request per addition, unless the additions are a coherent set.
+[SUBMISSION_GUIDELINES.md](SUBMISSION_GUIDELINES.md) walks the whole path, including the entry format and the section table. One pull request per addition, unless the additions are a coherent set.
 
 ## Removals
 
-Removals are as welcome as additions, and usually more useful. If an entry is dead, abandoned, misleading, or exposes something it should not, open a pull request that removes it and say why.
+Removals are as welcome as additions, and usually more useful. Open a pull request that removes the entry and say why, or [report it](https://github.com/Comfy-Org/comfy-awesome/issues/new?template=report-an-entry.yml) if you would rather not.
+
+An entry comes out when:
+
+- The link is dead, or the project has been deleted or archived.
+- The project has been abandoned, and the entry does not say so.
+- The entry misdescribes what the project does.
+- The project has started doing something harmful: shipping malicious code, exfiltrating data, breaking an install, or exposing something it should not.
+- A rights holder objects to how their name, mark or work appears in the entry.
+
+A removal for malicious behaviour needs evidence, not a scanner screenshot. Name the project, the version or commit, the exact file or lines, and what the code does. More than one independent source where you can. An antivirus or registry scanner result can support a case but does not settle one on its own, because scanners produce false positives and node packs legitimately read files, write to disk and reach the network.
+
+Not every problem is a removal. An entry whose description has drifted gets a corrected description. A project whose author has called it finished gets that stated in the line. Removal is for entries a reader is better off not seeing at all.
+
+Taking an entry out of this list does nothing to the project. It stays wherever its author put it, and it may still be installable from the registry or from GitHub.
 
 ## Changes to the structure
 
@@ -71,4 +88,6 @@ Adding or renaming a section is a bigger change than adding an entry. Open an is
 
 ## License
 
-The list is released under [CC0-1.0](LICENSE), and contributions go in under the same terms. Linked projects keep their own licenses.
+The list is released under [CC0-1.0](LICENSE), and contributions go in under the same terms.
+
+The waiver covers the text of these pages: the entries, the descriptions and the way they are organised. It does not reach anything the list points at. Linked projects keep their own licenses, and CC0 waives no trademark or patent rights, so a project name or logo appearing in an entry is still its owner's.

@@ -6,8 +6,11 @@ For artists who want to see what is possible, and for engineers who want to know
 
 New to Comfy? Install it from the [download page](https://comfy.org/download), run [your first generation](https://docs.comfy.org/get_started/first_generation), then come back.
 
+Entries sit under **From Comfy** for what Comfy Org maintains, and **From the community** for everything else. The community half is other people's work, and listing it is not a safety audit. [How to read this list](#how-to-read-this-list) has the detail, and it is worth reading before you install anything.
+
 ## Contents
 
+- [How to read this list](#how-to-read-this-list)
 - [Built with Comfy](#built-with-comfy)
 - [Work made with Comfy](#work-made-with-comfy)
 - [Workflows](#workflows)
@@ -20,9 +23,31 @@ New to Comfy? Install it from the [download page](https://comfy.org/download), r
 - [Contributing](#contributing)
 - [License](#license)
 
+## How to read this list
+
+Sections group entries by what you are trying to do. Inside a section, entries sit under one of two headings.
+
+**From Comfy** means Comfy Org builds, maintains or officially supports it. Problems with it belong on that project's own issue tracker.
+
+**From the community** means someone else builds and maintains it. It is listed because it is useful.
+
+Neither heading is a quality or a safety rating. **From Comfy** says who maintains the thing at the other end of the link, and nothing more than that. A partner integration is not a Comfy product either: where a hosted service or a partner model sits behind a Comfy API, the API is Comfy's and the service is the partner's.
+
+### Installing third-party projects
+
+An entry is checked against [the bar](CONTRIBUTING.md) for fit, not audited for safety. Comfy Org does not certify that a listed project is safe, does not control, test or vet its code, models or data, and may review a listing but does not promise to keep reviewing it. Being on this list is not an endorsement.
+
+Custom nodes and apps are executable code, not metadata. They run with the same access as the Comfy process that loads them, which on a local install is your own user account, your files and your network. Trust a pack as much as you would trust any other software you choose to install: read the source, check who publishes it, and accept that you are the one running it.
+
+If an entry is malicious, misleading or harmful, [report it](https://github.com/Comfy-Org/comfy-awesome/issues/new?template=report-an-entry.yml) and it will be removed. Removing an entry does nothing to the project itself, which stays wherever its author put it.
+
 ## Built with Comfy
 
 Products, tools and apps that run Comfy underneath.
+
+### From the community
+
+Made and maintained by other people. Read [Installing third-party projects](#installing-third-party-projects) before you run any of it.
 
 **Tools that put Comfy inside something else:**
 
@@ -34,12 +59,17 @@ Products, tools and apps that run Comfy underneath.
 
 **Apps you can open right now:**
 
-- [Emojinius](https://emojinius.comfy.org) - Upload a character and get back a pack of animated Slack emojis.
 - [Playset](https://comfy-hackathon-8bb.vercel.app) - Generates every asset for a 2D game.
-- [Cinematic Studio](https://comfy.org/hub/apps/cinematic-studio/) - Direct a shot with a real camera, light and grade it, then run it on any image model.
-- [Upscale](https://comfy-web-app-template.vercel.app) - A minimal image upscaler, and the template the other web apps start from.
 - [Micio](https://micio-rust.vercel.app) - Turns a photo or a chosen breed into an illustrated pet, then adds it to a shared pet cam.
 - [Comfy Clash](https://dev-platform-hackathon-team-2.vercel.app) - Generates a deck of original trading cards, then plays them against an opponent.
+
+### From Comfy
+
+**Apps you can open right now:**
+
+- [Emojinius](https://emojinius.comfy.org) - Upload a character and get back a pack of animated Slack emojis.
+- [Cinematic Studio](https://comfy.org/hub/apps/cinematic-studio/) - Direct a shot with a real camera, light and grade it, then run it on any image model.
+- [Upscale](https://comfy-web-app-template.vercel.app) - A minimal image upscaler, and the template the other web apps start from.
 
 **Clonable app guides**, a working app plus a walkthrough of how it is wired:
 
@@ -68,7 +98,7 @@ Products, tools and apps that run Comfy underneath.
 
 ## Work made with Comfy
 
-Films, campaigns, games and public art.
+Films, campaigns, games and public art. The work is the makers' own, and the credit belongs to the people and studios named in each line. Most of the links are write-ups published by Comfy, so the two headings used elsewhere in this list do not apply here.
 
 **Galleries and roundups:**
 
@@ -119,6 +149,8 @@ Films, campaigns, games and public art.
 
 ## Workflows
 
+### From Comfy
+
 - [comfy.org/workflows](https://comfy.org/workflows) - Browsable catalogue of runnable workflows with the models each one needs.
 - [Character replacement](https://comfy.org/workflows/use-cases/ai-character-replacement/) - Swapping a character into existing footage.
 - [Image to video](https://comfy.org/workflows/use-cases/ai-image-to-video/) - Animating a still.
@@ -135,6 +167,8 @@ Films, campaigns, games and public art.
 ## Build your own
 
 The API surfaces, SDKs and hosted endpoints for driving Comfy from your own code.
+
+### From Comfy
 
 - [Development overview](https://docs.comfy.org/development/overview) - Map of the API surfaces and which one you want.
 - [API quickstart](https://docs.comfy.org/development/api-development/quickstart) - Submit a workflow and collect the result in a few calls.
@@ -171,12 +205,21 @@ The API surfaces, SDKs and hosted endpoints for driving Comfy from your own code
 - [Route reference](https://docs.comfy.org/development/comfyui-server/comms_routes) - Every endpoint a running server exposes.
 - [API examples](https://docs.comfy.org/development/comfyui-server/api-examples) - Working scripts for queueing prompts and reading results.
 - [comfy-api-proxy](https://github.com/Comfy-Org/comfy-api-proxy) - Puts the v2 API in front of a self-hosted instance, so one client works against both.
+
+### From the community
+
+Read [Installing third-party projects](#installing-third-party-projects) first.
+
+**Writing workflows as code:**
+
 - [ComfyScript](https://github.com/Chaoses-Ib/ComfyScript) - Write workflows as Python instead of JSON.
 - [ComfyUI-to-Python-Extension](https://github.com/pydn/ComfyUI-to-Python-Extension) - Exports a saved workflow as a standalone Python script.
 
 ## Node packs
 
 Custom nodes are how Comfy grows.
+
+### From Comfy
 
 **Install and manage them with:**
 
@@ -188,6 +231,10 @@ Custom nodes are how Comfy grows.
 - [Registry CI/CD](https://docs.comfy.org/registry/cicd) - Publish on tag from GitHub Actions.
 - [Installing custom nodes](https://docs.comfy.org/installation/install_custom_node) - The manual route, and what it writes to disk.
 - [Custom node troubleshooting](https://docs.comfy.org/troubleshooting/custom-node-issues) - Import errors, dependency conflicts and how to bisect them.
+
+### From the community
+
+Every pack below is third-party code that runs inside your Comfy process. Read [Installing third-party projects](#installing-third-party-projects) first.
 
 **The 40 most-installed packs**, ordered by Comfy Registry install count. Reproduce the ordering with:
 
@@ -238,6 +285,8 @@ curl -s "https://api.comfy.org/nodes?page=1&limit=100&sort=total_install%3Bdesc&
 
 ## Writing your own nodes
 
+### From Comfy
+
 - [Custom node overview](https://docs.comfy.org/custom-nodes/overview) - Start here if you are writing your first node.
 - [Walkthrough](https://docs.comfy.org/custom-nodes/walkthrough) - Builds a working node from an empty folder.
 - [Server-side reference](https://docs.comfy.org/custom-nodes/backend/server_overview) - `INPUT_TYPES`, `RETURN_TYPES`, `FUNCTION`, lifecycle and the rest of the contract.
@@ -256,7 +305,14 @@ curl -s "https://api.comfy.org/nodes?page=1&limit=100&sort=total_install%3Bdesc&
 
 ## Hosting
 
+### From Comfy
+
 - [Self-hosting guide](https://docs.comfy.org/development/deploy/self-hosting) - Running Comfy on a rented GPU.
+
+### From the community
+
+Independent providers and images. Comfy Org does not operate these services, hold your data on them, or set their prices. Read [Installing third-party projects](#installing-third-party-projects) first.
+
 - [ComfyUI-Docker](https://github.com/YanWenKun/ComfyUI-Docker) - Container images across several CUDA and Python combinations.
 - [RunComfy](https://www.runcomfy.com/) - Hosted unmodified Comfy with preloaded models, plus a serverless API. ([API docs](https://docs.runcomfy.com/))
 - [ComfyDeploy](https://www.comfydeploy.com/) - Turns a workflow into a versioned API endpoint, with a team layer on top. ([docs](https://docs.comfydeploy.com/docs/introduction))
@@ -264,6 +320,8 @@ curl -s "https://api.comfy.org/nodes?page=1&limit=100&sort=total_install%3Bdesc&
 - [SaladCloud](https://docs.salad.com/container-engine/how-to-guides/ai-machine-learning/deploy-stable-diffusion-comfy) - Deployment recipe for their container engine. ([comfyui-api](https://github.com/SaladTechnologies/comfyui-api))
 
 ## Getting started
+
+### From Comfy
 
 - [ComfyUI](https://github.com/Comfy-Org/ComfyUI) - The node-graph engine itself: a workflow runner for diffusion models with a Python backend.
 - [Download page](https://comfy.org/download) - Picks the right install path for your machine.
@@ -281,6 +339,8 @@ curl -s "https://api.comfy.org/nodes?page=1&limit=100&sort=total_install%3Bdesc&
 
 ## Learning
 
+### From Comfy
+
 - [Official documentation](https://docs.comfy.org/) - The canonical reference for installation, nodes, models and the APIs.
 - [llms.txt](https://docs.comfy.org/llms.txt) - The whole documentation index as one plain-text file, which is the fastest way to find a page.
 - [Nodes](https://docs.comfy.org/basic-concepts/nodes) and [models](https://docs.comfy.org/basic-concepts/models) - The two concepts everything else is built on.
@@ -291,15 +351,20 @@ curl -s "https://api.comfy.org/nodes?page=1&limit=100&sort=total_install%3Bdesc&
 - [YouTube](https://www.youtube.com/@comfyorg) - Official walkthroughs and release videos.
 - [Community links](https://docs.comfy.org/community/links) - The official list of community spaces.
 - [Contributing to ComfyUI](https://docs.comfy.org/community/contributing) - How to get a change into core.
-- [ComfyUI Wiki](https://comfyui-wiki.com/en) - Unofficial community reference covering installs, nodes and models.
+
+### From the community
+
+- [ComfyUI Wiki](https://comfyui-wiki.com/en) - Reference covering installs, nodes and models.
 - [Latent Vision](https://www.youtube.com/@latentvision) - Deep explanations of conditioning, IPAdapter and sampler behaviour, from the IPAdapter author.
 - [Nerdy Rodent](https://www.youtube.com/@NerdyRodent) - Regular walkthroughs of new models and workflows.
 - [Scott Detweiler](https://www.youtube.com/@sedetweiler) - Long-running beginner-to-intermediate series.
 
 ## Contributing
 
-Suggestions are welcome, and work you made yourself is the most welcome kind. See [CONTRIBUTING.md](CONTRIBUTING.md) for the bar and how to propose an entry.
+Built something with Comfy? Add it. [SUBMISSION_GUIDELINES.md](SUBMISSION_GUIDELINES.md) is the short path: one line, one file, one pull request. [CONTRIBUTING.md](CONTRIBUTING.md) is the bar an entry has to clear.
+
+Removals are as welcome as additions. So is [reporting an entry](https://github.com/Comfy-Org/comfy-awesome/issues/new?template=report-an-entry.yml) that should not be here.
 
 ## License
 
-[CC0-1.0](LICENSE). The list content is in the public domain. Linked projects keep their own licenses.
+[CC0-1.0](LICENSE). The list content is in the public domain. Linked projects keep their own licenses, and the CC0 waiver covers these pages only, not anything they point at.
