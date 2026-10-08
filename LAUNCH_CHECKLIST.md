@@ -8,12 +8,12 @@ Checked items are done in the tree. Unchecked items are either a repository sett
 
 None of these can be done in a commit.
 
-- [ ] **Description.** One line, visible in search results and on the org page. Suggested: `A curated list of things people have built with Comfy, and the tools they built it with.`
-- [ ] **Topics.** `awesome`, `awesome-list`, `comfyui`, `comfy`, `stable-diffusion`, `generative-ai`, `custom-nodes`, `workflows`. The first two are what the awesome index requires and what its scrapers key on.
+- [x] **Description.** Already set, and it reads well.
+- [ ] **Topics.** Currently none. Suggested: `awesome`, `awesome-list`, `comfyui`, `comfy`, `stable-diffusion`, `custom-nodes`, `workflows`. The first two are what the awesome index requires and what its scrapers key on.
 - [ ] **Social preview image.** Without one, every share renders as a grey GitHub placeholder. Needs a 1280x640 image from whoever owns the brand assets.
 - [ ] **Issue templates.** Already in the tree. Confirm both forms render after the repository is public, because a malformed form fails silently and falls back to a blank issue.
 - [ ] **Labels.** The forms apply `report` and `suggestion`. GitHub silently drops labels that do not exist, so create them or the forms apply nothing.
-- [ ] **Discussions.** Recommend **off** at launch. A list has two real interactions, propose and report, and both are already issues or pull requests. An empty Discussions tab reads as abandonment, and a busy one becomes a support channel for Comfy itself, which belongs in Discord. Turn it on later if people ask for something the two issue forms cannot carry.
+- [x] **Discussions.** Already off, and worth leaving off. A list has two real interactions, propose and report, and both are already issues or pull requests. An empty Discussions tab reads as abandonment, and a busy one becomes a support channel for Comfy itself, which belongs in Discord. Turn it on later if people ask for something the two issue forms cannot carry.
 - [ ] **Branch protection on `main`.** Require a pull request, require one approval, dismiss stale approvals, block force pushes. Allow maintainers to merge their own trivial fixes or triage becomes slower than it needs to be.
 - [ ] **Private vulnerability reporting.** `SECURITY.md` links to the advisory form, which 404s until the setting is enabled.
 - [ ] **Wiki and Projects.** Off. Nothing will live there.
@@ -71,10 +71,10 @@ Nothing in the list carries a date, a count or a status word, and that should ho
 
 Recommend yes, narrowly.
 
-- [ ] **Invite the authors whose work is already listed under From the community.** Around fifty entries are other people's projects, listed without them being asked. Telling them before the repository is public turns a surprise into a courtesy, catches descriptions we got wrong, and means launch day has advocates rather than an audience. The node pack authors near the top of the install-count list are the ones worth a direct message.
+- [ ] **Invite the authors whose work is already listed under From the community.** Most of those entries are other people's projects, listed without them being asked. Telling them before the repository is public turns a surprise into a courtesy, catches descriptions we got wrong, and means launch day has advocates rather than an audience. The node pack authors near the top of the install-count list are the ones worth a direct message.
 - [ ] **Do not seed by soliciting new submissions before launch.** An empty list with a queue of pending pull requests is a worse first impression than a full list with none.
-- [ ] **Fix the three unattributed app entries first.** `Playset`, `Micio` and `Comfy Clash` are hackathon apps on anonymous hosting with no public author and no repository. Either attribute them or accept that they sit under From the community.
 - [ ] **Decide whether the showcase entries need their subjects' sign-off.** The studios and schools in Work made with Comfy are already written up on Comfy's own pages, so this is probably covered, but the list repeats claims about named companies in a new venue.
+- [ ] **Check the entries that have no public author.** An app on anonymous hosting with no repository and nobody named cannot be placed under either heading honestly, and it is the kind of entry a reader will ask about first. Either attribute it or drop it before launch rather than after.
 
 ## Discoverability
 
@@ -114,9 +114,8 @@ Drafted, not cleared. Flagged in full in the handover notes, repeated here so th
 | Primary and backup triager, and accepting the one-week reply time | Unassigned. The single thing that decides whether this list stays alive. |
 | Whether the repository gets renamed to `awesome-comfy` | Deep, with whoever owns the org's repository naming |
 | Code of conduct enforcement address | Unassigned. Blocks both the file and the awesome index submission. |
-| Repository settings: description, topics, social preview, branch protection, labels, private vulnerability reporting, discussions off | Whoever holds admin on the org |
+| Repository settings: topics, social preview, branch protection, labels, private vulnerability reporting, squash-only merges | Whoever holds admin on the org |
 | Social preview image | Whoever owns brand assets |
 | Legal review of the disclaimer, the takedown route and the CC0 scope | Unassigned |
-| Attribution for `Playset`, `Micio` and `Comfy Clash` | Whoever ran the hackathons those came out of |
 | Who may merge a removal without review | Unassigned |
 | Going public, and in what order relative to the announcement | Deep |
