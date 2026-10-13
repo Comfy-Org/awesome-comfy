@@ -6,7 +6,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        A [pull request](https://github.com/Comfy-Org/comfy-awesome/blob/main/SUBMISSION_GUIDELINES.md) is faster, and it is one line in one file. This form is here for when you would rather not open one.
+        A [pull request](https://github.com/Comfy-Org/awesome-comfy/blob/main/SUBMISSION_GUIDELINES.md) is faster, and it is one line in one file. This form is here for when you would rather not open one.
 
   - type: input
     id: url

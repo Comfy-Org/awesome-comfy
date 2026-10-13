@@ -1,7 +1,7 @@
 blank_issues_enabled: true
 contact_links:
   - name: Proposing a new section, or a change to the structure
-    url: https://github.com/Comfy-Org/comfy-awesome/issues/new
+    url: https://github.com/Comfy-Org/awesome-comfy/issues/new
     about: Open a blank issue and say what a reader cannot find in the list as it stands.
   - name: Help with Comfy itself
     url: https://discord.com/invite/comfyorg

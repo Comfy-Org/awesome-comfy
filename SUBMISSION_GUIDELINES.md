@@ -24,6 +24,39 @@ The shape is always the same:
 
 Then open the pull request and fill in the template. Nothing else is required.
 
+## A worked example
+
+Say you built a DaVinci Resolve panel. The entry line:
+
+```
+- [Lanternfish](https://github.com/example/lanternfish) - A DaVinci Resolve panel that sends a timeline clip to your own Comfy server and returns the result as a new track.
+```
+
+The pull request body, which follows the template:
+
+```
+## What are you adding or removing?
+
+- [Lanternfish](https://github.com/example/lanternfish) - A DaVinci Resolve panel that sends a timeline clip to your own Comfy server and returns the result as a new track.
+
+## Where does it go, and why does it belong?
+
+Built with Comfy, From the community, under "Tools that put Comfy inside something else".
+Nothing on the list reaches Resolve today, and Comfy is the only backend: the panel
+does nothing without a running server.
+
+Source: https://github.com/example/lanternfish
+Demo: https://lanternfish.example/demo
+Video: https://youtu.be/example (80 seconds, Resolve to Comfy and back)
+
+## Disclosure
+
+I wrote it.
+```
+
+Four things make that reviewable in one pass: the line itself, where it goes, links a
+stranger can open, and whether you made it. Lanternfish is not real, so do not submit it.
+
 ## Where does it go
 
 | What you have | Section | Heading |
@@ -38,11 +71,11 @@ Then open the pull request and fill in the template. Nothing else is required.
 | An install path or first-run guide | Getting started | From the community |
 | Docs, a course, a channel, a wiki, a community space | Learning | From the community |
 
-Your entry goes under **From the community** unless Comfy Org builds and maintains it, in which case someone at Comfy will say so in review. Being a Comfy partner, customer or integration does not make an entry **From Comfy**.
+Your entry goes under **From the community** unless Comfy Org builds and maintains it. Being a Comfy partner, customer or integration does not make an entry **From Comfy**.
 
-**Work made with Comfy** has no affiliation heading, because the work there is always the maker's own. Pick the sub-group that fits: film and television, advertising and campaigns, games and 3D, public art and installations, teaching.
+**Work made with Comfy** has no affiliation heading, because the work there is always the maker's own. Pick the sub-group that fits: film and television, advertising and campaigns, games, studios and 3D, public art and installations, teaching.
 
-If nothing fits, [open an issue](https://github.com/Comfy-Org/comfy-awesome/issues/new) and say what a reader cannot currently find. Adding a section is a bigger change than adding an entry.
+If nothing fits, [open an issue](https://github.com/Comfy-Org/awesome-comfy/issues/new) and say what a reader cannot currently find. Adding a section is a bigger change than adding an entry.
 
 ## The description line
 
@@ -52,8 +85,8 @@ Good:
 
 ```
 - [ComfyUI-Inpaint-CropAndStitch](https://github.com/lquesada/ComfyUI-Inpaint-CropAndStitch) - Crops to the mask before sampling and stitches back after, which makes inpainting much faster.
-- [sd-ppp](https://github.com/zombieyang/sd-ppp) - Drives Comfy from Photoshop, reading and writing layers directly.
-- [ComfyUI_essentials](https://github.com/cubiq/ComfyUI_essentials) - Image, mask and conditioning primitives missing from core. In maintenance mode.
+- [ComfyUI-TD](https://github.com/JiSenHua/ComfyUI-TD) - Streams images, video, point clouds and audio from Comfy into TouchDesigner in real time.
+- [OpenLayer](https://mehran-ahmadi.com/OpenLayer/) - A Photoshop panel that generates, inpaints and upscales through your own Comfy server and hands back editable layers. Alpha.
 ```
 
 Each of those says what the thing does, and the third says what you also need to know before you install it.
@@ -72,7 +105,7 @@ Limitations belong in the line. One platform only, one model family only, a week
 
 ## What gets turned down
 
-Most of these are fixable in a follow-up commit. Nobody is being judged.
+Most of these are fixable in a follow-up commit.
 
 - **A stranger cannot open it.** Private repository, login wall on the landing page, invite-only space, dead link.
 - **The link does not resolve.** Check it the day you submit.
@@ -86,15 +119,13 @@ Most of these are fixable in a follow-up commit. Nobody is being judged.
 
 The full list is in [CONTRIBUTING.md](CONTRIBUTING.md).
 
-## What happens after you open it
-
-Expect a first reply within a week. Most pull requests either merge or come back with one comment about the description line, and a one-line fix is usually all it takes.
+## Scope of a pull request
 
 One pull request per addition, unless the additions are a coherent set. If you are changing someone else's entry, or removing one, say why in the description. Removals are welcome.
 
 ## If you would rather not open a pull request
 
-[Suggest an entry](https://github.com/Comfy-Org/comfy-awesome/issues/new?template=suggest-an-entry.yml) in an issue and someone will pick it up. It is slower than a pull request.
+[Suggest an entry](https://github.com/Comfy-Org/awesome-comfy/issues/new?template=suggest-an-entry.yml) in an issue instead. A pull request is the faster path, because the edit is already written.
 
 ## Submitting on behalf of someone else
 
@@ -106,4 +137,4 @@ Entries under **From the community** are made and maintained by other people. An
 
 By submitting, you are confirming that the entry text is yours to contribute under [CC0-1.0](LICENSE). That covers the line you wrote here. It does not change the license of the project you are linking to, and it does not transfer any name, logo or trademark.
 
-If something on the list turns out to be malicious, misleading or harmful, [report it](https://github.com/Comfy-Org/comfy-awesome/issues/new?template=report-an-entry.yml) and the entry will be removed.
+If something on the list turns out to be malicious, misleading or harmful, [report it](https://github.com/Comfy-Org/awesome-comfy/issues/new?template=report-an-entry.yml). Removing an entry does nothing to the project itself, which stays wherever its author put it.

@@ -1,12 +1,12 @@
-# Awesome Comfy
+# Awesome Comfy [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-Things people have built with Comfy: apps and plugins people shipped, films and campaigns that aired, and workflows you can run, plus the APIs, SDKs and node packs for building your own.
+> Things people have built with Comfy: apps and plugins people shipped, films and campaigns that aired, and workflows you can run, plus the APIs, SDKs and node packs for building your own.
 
-For artists who want to see what is possible, and for engineers who want to know where to start.
+For artists who want to see what is possible, and for engineers who want to know where to start. New here? Getting started is the second-to-last section.
 
-New to Comfy? Install it from the [download page](https://comfy.org/download), run [your first generation](https://docs.comfy.org/get_started/first_generation), then come back.
+Entries sit under **From Comfy** for what Comfy Org maintains, and **From the community** for everything else. The community half is other people's work, and listing it is not a safety audit. How to read this list, below, has the detail, and it is worth reading before you install anything.
 
-Entries sit under **From Comfy** for what Comfy Org maintains, and **From the community** for everything else. The community half is other people's work, and listing it is not a safety audit. [How to read this list](#how-to-read-this-list) has the detail, and it is worth reading before you install anything.
+Built something with Comfy? [Add it](SUBMISSION_GUIDELINES.md). Removals are as welcome as additions.
 
 ## Contents
 
@@ -20,8 +20,6 @@ Entries sit under **From Comfy** for what Comfy Org maintains, and **From the co
 - [Hosting](#hosting)
 - [Getting started](#getting-started)
 - [Learning](#learning)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## How to read this list
 
@@ -39,7 +37,7 @@ An entry is checked against [the bar](CONTRIBUTING.md) for fit, not audited for 
 
 Custom nodes and apps are executable code, not metadata. They run with the same access as the Comfy process that loads them, which on a local install is your own user account, your files and your network. Trust a pack as much as you would trust any other software you choose to install: read the source, check who publishes it, and accept that you are the one running it.
 
-If an entry is malicious, misleading or harmful, [report it](https://github.com/Comfy-Org/comfy-awesome/issues/new?template=report-an-entry.yml) and it will be removed. Removing an entry does nothing to the project itself, which stays wherever its author put it.
+If an entry is malicious, misleading or harmful, [report it](https://github.com/Comfy-Org/awesome-comfy/issues/new?template=report-an-entry.yml) and it will be removed. Removing an entry does nothing to the project itself, which stays wherever its author put it.
 
 ## Built with Comfy
 
@@ -52,9 +50,7 @@ Made and maintained by other people. Read [Installing third-party projects](#ins
 **Tools that put Comfy inside something else:**
 
 - [krita-ai-diffusion](https://github.com/Acly/krita-ai-diffusion) - Inpainting, outpainting and live painting inside Krita, against a local or remote Comfy server.
-- [sd-ppp](https://github.com/zombieyang/sd-ppp) - A Photoshop plugin that sends layers and selections to Comfy, or to hosted model APIs, and brings the results back as layers.
 - [OpenLayer](https://mehran-ahmadi.com/OpenLayer/) - A Photoshop panel that generates, inpaints and upscales through your own Comfy server and hands back editable layers. Alpha.
-- [ComfyUI-BlenderAI-node](https://github.com/AIGODLIKE/ComfyUI-BlenderAI-node) - Builds and runs Comfy graphs from inside Blender's node editor.
 - [StableGen](https://github.com/sakalond/StableGen) - A Blender addon that textures 3D meshes through a Comfy backend using multi-view projection.
 - [ComfyUI-for-Nuke](https://github.com/vinavfx/ComfyUI-for-Nuke) - Builds and runs Comfy graphs inside Foundry Nuke, against your own Comfy server.
 - [ComfyUI-TD](https://github.com/JiSenHua/ComfyUI-TD) - Streams images, video, point clouds and audio from Comfy into TouchDesigner in real time.
@@ -115,7 +111,7 @@ Films, campaigns, games and public art. The work is the makers' own, and the cre
 - [Svedka, Shake Your Bots Off](https://comfy.org/customers/svedka-silverside/) - Silverside AI rebuilt Svedka's lost Fembot on Comfy workflows for a Super Bowl LX spot.
 - [Groove Jones, Dick's Sporting Goods](https://comfy.org/customers/groove-jones/) - A hyper-realistic faux out-of-home holiday campaign for the Crocs x NFL collection, delivered against a short deadline.
 - [Don Diablo, Blackout](https://www.youtube.com/watch?v=cPMNIIZkNIs) - Music video whose image work, including identity modelling and stylization, was done locally in Comfy. ([write-up](https://blogs.nvidia.com/blog/rtx-ai-garage-don-diablo-gen-ai-music-video))
-- [Silverside AI](https://comfy.org/customers/videos/silverside-ai/) - Silverside AI on why node-based workflows give a creative team more control than single-prompt tools. Video.
+- [Silverside AI](https://comfy.org/customers/videos/silverside-ai/) - Why node-based workflows give a creative team more control than single-prompt tools. Video.
 - [Black Math](https://comfy.org/customers/videos/black-math/) - Artists and technical directors on building extendable creative systems while keeping art direction. Video.
 
 **Games:**
@@ -164,8 +160,6 @@ Films, campaigns, games and public art. The work is the makers' own, and the cre
 - [Image to 3D](https://comfy.org/workflows/use-cases/image-to-3d/) - Single image to a mesh.
 - [workflow_templates](https://github.com/Comfy-Org/workflow_templates) - The source of the templates that ship inside Comfy. Open a pull request here to add one.
 - [Using templates](https://docs.comfy.org/interface/features/template) - How the built-in template browser works.
-- [ComfyUI_examples](https://comfyanonymous.github.io/ComfyUI_examples/) - The original example gallery, kept as a snapshot rather than updated. Images carry embedded workflows you can drag onto the canvas.
-- [example_workflows](https://github.com/Comfy-Org/example_workflows) - Archive of example workflow JSON.
 - [Workflow JSON spec](https://docs.comfy.org/specs/workflow_json) - The on-disk format, for reading or writing workflows programmatically.
 - [API workflow format](https://docs.comfy.org/development/api-development/workflow-api-format) - The flattened form you POST to a server.
 
@@ -213,7 +207,7 @@ The API surfaces, SDKs and hosted endpoints for driving Comfy from your own code
 
 ### From the community
 
-Read [Installing third-party projects](#installing-third-party-projects) first.
+Read the third-party note above before you run any of it.
 
 **Writing workflows as code:**
 
@@ -239,9 +233,7 @@ Custom nodes are how Comfy grows.
 
 ### From the community
 
-Every pack below is third-party code that runs inside your Comfy process. Read [Installing third-party projects](#installing-third-party-projects) first.
-
-**The most-installed packs**, ordered by Comfy Registry install count. Reproduce the ordering with:
+Every pack below is third-party code that runs inside your Comfy process. Read the third-party note above first. They are ordered by Comfy Registry install count, which you can reproduce with:
 
 ```
 curl -s "https://api.comfy.org/nodes?page=1&limit=100&sort=total_install%3Bdesc&latest=true"
@@ -252,36 +244,21 @@ curl -s "https://api.comfy.org/nodes?page=1&limit=100&sort=total_install%3Bdesc&
 - [ComfyUI-Easy-Use](https://github.com/yolain/ComfyUI-Easy-Use) - Condensed loader and sampler nodes that collapse common chains into one node.
 - [ComfyUI-VideoHelperSuite](https://github.com/Kosinkadink/ComfyUI-VideoHelperSuite) - Load, batch and recombine video and image sequences.
 - [ComfyUI-Impact-Pack](https://github.com/ltdrdata/ComfyUI-Impact-Pack) - Detection-driven detailing: detectors, detailers, upscalers and pipes.
-- [ComfyUI-Custom-Scripts](https://github.com/pythongosssss/ComfyUI-Custom-Scripts) - Editor conveniences: prompt autocomplete, pinned favourites, image feed.
-- [ComfyUI_essentials](https://github.com/cubiq/ComfyUI_essentials) - Image, mask and conditioning primitives missing from core. In maintenance mode.
 - [comfyui_controlnet_aux](https://github.com/Fannovel16/comfyui_controlnet_aux) - The preprocessors ControlNet needs: depth, pose, lineart, normals, segmentation.
-- [ComfyUI-GGUF](https://github.com/city96/ComfyUI-GGUF) - Run GGUF-quantised checkpoints and text encoders against native Comfy model code.
-- [ComfyUI-Crystools](https://github.com/crystian/ComfyUI-Crystools) - Live resource monitor plus pipe, debug and metadata nodes.
-- [ComfyUI-Impact-Subpack](https://github.com/ltdrdata/ComfyUI-Impact-Subpack) - The Impact Pack nodes kept out of the main pack, mostly the Ultralytics detector.
 - [ComfyUI_LayerStyle](https://github.com/chflame163/ComfyUI_LayerStyle) - Photoshop-style layer, blend and shadow compositing. Segmentation nodes live in the companion LayerStyle_Advance pack.
 - [cg-use-everywhere](https://github.com/chrisgoringe/cg-use-everywhere) - Broadcasts an output to every matching input, so MODEL, CLIP and VAE wires leave the graph.
-- [ComfyUI-WanVideoWrapper](https://github.com/kijai/ComfyUI-WanVideoWrapper) - Wrapper nodes for the Wan video models, with block swapping and offload controls.
 - [ComfyUI-Frame-Interpolation](https://github.com/Fannovel16/ComfyUI-Frame-Interpolation) - Frame interpolation (RIFE, FILM and others) for smoothing video output.
 - [ComfyUI_UltimateSDUpscale](https://github.com/ssitu/ComfyUI_UltimateSDUpscale) - Tiled diffusion upscaling, the Ultimate SD Upscale script as nodes.
 - [ComfyUI-Florence2](https://github.com/kijai/ComfyUI-Florence2) - Florence-2 captioning, grounding and region detection.
-- [ComfyUI_IPAdapter_plus](https://github.com/cubiq/ComfyUI_IPAdapter_plus) - Reference IPAdapter implementation for image-to-image conditioning and style transfer. In maintenance mode.
-- [ComfyUI-mxToolkit](https://github.com/Smirnov75/ComfyUI-mxToolkit) - Minimal layout and control nodes: sliders, seeds, reroutes, dot markers.
 - [was-node-suite-comfyui](https://github.com/WASasquatch/was-node-suite-comfyui) - Image, mask, text, logic and file nodes. The v3 rewrite is on GitHub while the registry still serves an older version.
-- [efficiency-nodes-comfyui](https://github.com/jags111/efficiency-nodes-comfyui) - Collapses loader, sampler and upscale into a handful of nodes, with XY plotting.
-- [ComfyUI-SeedVR2_VideoUpscaler](https://github.com/numz/ComfyUI-SeedVR2_VideoUpscaler) - SeedVR2 video restoration and upscaling.
 - [comfy_mtb](https://github.com/melMass/comfy_mtb) - Animation-oriented utilities: curves, masks and image operations, plus face swap and enhance nodes.
 - [ComfyUI-Image-Saver](https://github.com/alexopus/ComfyUI-Image-Saver) - Saves images with Civitai-compatible generation metadata.
-- [ComfyUI-Inspire-Pack](https://github.com/ltdrdata/ComfyUI-Inspire-Pack) - LoRA block weights, regional prompts, and seed and noise controls.
 - [ComfyUI-RMBG](https://github.com/1038lab/ComfyUI-RMBG) - Background removal and segmentation across BiRefNet, BEN2, SAM and others. Check each model's licence, since some are non-commercial.
 - [ComfyUI-Inpaint-CropAndStitch](https://github.com/lquesada/ComfyUI-Inpaint-CropAndStitch) - Crops to the mask before sampling and stitches back after, which makes inpainting much faster.
-- [comfyui-art-venture](https://github.com/sipherxyz/comfyui-art-venture) - Image, JSON and utility nodes, LaMa inpainting, interrogators, and chat nodes that call external APIs with your own keys.
 - [ComfyUI-Lora-Manager](https://github.com/willmiao/ComfyUI-Lora-Manager) - Manage, download and apply LoRAs and checkpoints, with recipes, previews and Civitai integration.
 - [ComfyUI-Detail-Daemon](https://github.com/Jonseed/ComfyUI-Detail-Daemon) - Adjusts sigmas to control fine detail, ported from sd-webui-Detail-Daemon.
 - [ComfyUI-Advanced-ControlNet](https://github.com/Kosinkadink/ComfyUI-Advanced-ControlNet) - ControlNet scheduling, masking and sliding-window context.
-- [ControlAltAI-Nodes](https://github.com/gseth/ControlAltAI-Nodes) - Quality-of-life nodes: Flux resolution calculator, Flux sampler, boolean and integer logic.
-- [ComfyUI-AnimateDiff-Evolved](https://github.com/Kosinkadink/ComfyUI-AnimateDiff-Evolved) - AnimateDiff with advanced sampling and context scheduling.
 - [ComfyUI_tinyterraNodes](https://github.com/TinyTerra/ComfyUI_tinyterraNodes) - Pipe-based workflow nodes, an XY plot node and a fullscreen image viewer.
-- [ComfyUI-WD14-Tagger](https://github.com/pythongosssss/ComfyUI-WD14-Tagger) - WD14 image tagging, for captioning and dataset preparation.
 
 ## Writing your own nodes
 
@@ -293,12 +270,8 @@ curl -s "https://api.comfy.org/nodes?page=1&limit=100&sort=total_install%3Bdesc&
 - [Datatypes](https://docs.comfy.org/custom-nodes/backend/datatypes) - The type system that decides which sockets connect.
 - [Shipping templates with a pack](https://docs.comfy.org/custom-nodes/workflow_templates) - So users get an example workflow on install.
 - [cookiecutter-comfy-extension](https://github.com/Comfy-Org/cookiecutter-comfy-extension) - Scaffolds a publishable node pack with the metadata already correct.
-- [ComfyUI-React-Extension-Template](https://github.com/Comfy-Org/ComfyUI-React-Extension-Template) - Minimal template for a React and TypeScript front-end extension.
-- [ComfyUI_devtools](https://github.com/Comfy-Org/ComfyUI_devtools) - Test nodes and fixtures the frontend test suite relies on.
 - [ComfyUI_frontend](https://github.com/Comfy-Org/ComfyUI_frontend) - The Vue front end the editor runs on.
 - [comfyui-native-port-guide](https://github.com/Comfy-Org/comfyui-native-port-guide) - Conventions for adding native model support to core, rather than wrapping it in a pack.
-- [rfcs](https://github.com/Comfy-Org/rfcs) - Design proposals for substantial changes to core, the APIs and the standards.
-- [comfy-action](https://github.com/Comfy-Org/comfy-action) - The GitHub Action Comfy uses to run workflows on ComfyUI's own CI runners.
 - [embedded-docs](https://github.com/Comfy-Org/embedded-docs) - The help pages shown inside the editor for core nodes, and how to add yours.
 - [comfy-model-tools](https://github.com/Comfy-Org/comfy-model-tools) - Scripts for merging, converting and quantizing model files for Comfy.
 - [comfyui-benchmark](https://github.com/Comfy-Org/comfyui-benchmark) - Extension for measuring generation performance across configurations.
@@ -311,13 +284,9 @@ curl -s "https://api.comfy.org/nodes?page=1&limit=100&sort=total_install%3Bdesc&
 
 ### From the community
 
-Independent providers and images. Comfy Org does not operate these services, hold your data on them, or set their prices. Read [Installing third-party projects](#installing-third-party-projects) first.
+Independent providers and images. Comfy Org does not operate these services, hold your data on them, or set their prices. Read the third-party note above first.
 
 - [ComfyUI-Docker](https://github.com/YanWenKun/ComfyUI-Docker) - Container images across several CUDA and Python combinations.
-- [RunComfy](https://www.runcomfy.com/) - Hosted unmodified Comfy with preloaded models, plus a serverless API. ([API docs](https://docs.runcomfy.com/))
-- [ComfyDeploy](https://www.comfydeploy.com/) - Turns a workflow into a versioned API endpoint, with a team layer on top. ([docs](https://docs.comfydeploy.com/docs/introduction))
-- [Replicate](https://replicate.com/docs/guides/extend/comfyui) - Run a workflow as a Replicate model, against a supported set of custom nodes.
-- [cog-comfyui](https://github.com/replicate/cog-comfyui) - Run an exported Comfy workflow as a Replicate model, with a curated set of custom nodes and weights. Fork it to add your own.
 - [SaladCloud](https://docs.salad.com/container-engine/how-to-guides/ai-machine-learning/deploy-stable-diffusion-comfy) - Deploy image and video generation with ComfyUI on their container engine.
 - [comfyui-api](https://github.com/SaladTechnologies/comfyui-api) - A stateless API server in front of Comfy that returns images or sends them to webhooks and S3, built for horizontal scaling.
 
@@ -356,16 +325,4 @@ Independent providers and images. Comfy Org does not operate these services, hol
 
 ### From the community
 
-- [ComfyUI Wiki](https://comfyui-wiki.com/en) - Reference covering installs, nodes and models.
 - [Nerdy Rodent](https://www.youtube.com/@NerdyRodent) - Regular walkthroughs of new models and workflows.
-- [Scott Detweiler](https://www.youtube.com/@sedetweiler) - An archive of beginner and intermediate tutorials. Model coverage stops at the SDXL era.
-
-## Contributing
-
-Built something with Comfy? Add it. [SUBMISSION_GUIDELINES.md](SUBMISSION_GUIDELINES.md) is the short path: one line, one file, one pull request. [CONTRIBUTING.md](CONTRIBUTING.md) is the bar an entry has to clear.
-
-Removals are as welcome as additions. So is [reporting an entry](https://github.com/Comfy-Org/comfy-awesome/issues/new?template=report-an-entry.yml) that should not be here.
-
-## License
-
-[CC0-1.0](LICENSE). The list content is in the public domain. Linked projects keep their own licenses, and the CC0 waiver covers these pages only, not anything they point at.

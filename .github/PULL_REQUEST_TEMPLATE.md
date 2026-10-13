@@ -1,4 +1,4 @@
-Delete any block below that does not apply to your change. New here? [SUBMISSION_GUIDELINES.md](https://github.com/Comfy-Org/comfy-awesome/blob/main/SUBMISSION_GUIDELINES.md) is a two-minute read.
+Delete any block below that does not apply to your change. New here? [SUBMISSION_GUIDELINES.md](https://github.com/Comfy-Org/awesome-comfy/blob/main/SUBMISSION_GUIDELINES.md) is a two-minute read.
 
 ## What are you adding or removing?
 
@@ -26,7 +26,8 @@ Delete any block below that does not apply to your change. New here? [SUBMISSION
 
 ### Only for a tool, repository or node pack
 
-- [ ] A commit in the last 18 months, not archived, not blocked.
+- [ ] A meaningful commit in the last 6 months, not archived, not blocked.
+- [ ] No open report that it breaks on current Comfy.
 - [ ] Comfy is load-bearing, not one optional backend among many.
 - [ ] If this is a node pack, it is published in the [Comfy Registry](https://registry.comfy.org/).
 

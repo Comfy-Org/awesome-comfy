@@ -91,7 +91,7 @@ In rough order of how much traffic each is likely to send.
 
 Getting into `sindresorhus/awesome` is worth real traffic, and the list does not currently qualify. The requirements are strict and mechanical.
 
-- [ ] **The repository name is wrong for the index.** It requires a lowercase `awesome-*` slug. This repository is `comfy-awesome`, not `awesome-comfy`. Renaming is free on GitHub and leaves a redirect, but it changes every link anyone has already shared, so it is a decision, not a chore. Without the rename, index submission is a non-starter.
+- [ ] **Rename the repository to `awesome-comfy`.** The index requires a lowercase `awesome-*` slug. Every self-reference in these files already points at the new name, so the rename is the only step left. Renaming is free on GitHub and leaves a redirect, but it changes every link anyone has already shared.
 - [ ] **Add the awesome badge** to the right of the heading. Required.
 - [ ] **Code of conduct required.** Same blocker as above.
 - [ ] **Thirty-day age requirement**, counted from the first real commit or from going public.
