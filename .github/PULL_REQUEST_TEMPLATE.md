@@ -40,4 +40,4 @@ Delete any block below that does not apply to your change. New here? [SUBMISSION
 
 ### Only if you are claiming the From Comfy heading
 
-- [ ] Comfy Org builds, maintains or officially supports this. A partnership, a customer relationship or an integration is not enough.
+- [ ] Comfy Org's own team built this. A partnership, a customer relationship or an integration is not enough.

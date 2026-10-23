@@ -4,7 +4,7 @@
 
 For artists who want to see what is possible, and for engineers who want to know where to start. New here? Getting started is the second-to-last section.
 
-Entries sit under **From Comfy** for what Comfy Org maintains, and **From the community** for everything else. The community half is other people's work, and listing it is not a safety audit. How to read this list, below, has the detail, and it is worth reading before you install anything.
+Entries sit under **From Comfy** for what Comfy Org's own team built, and **From the community** for everything else. Neither heading says anyone is maintaining the thing, and listing something is not a safety audit. How to read this list, below, has the detail, and it is worth reading before you install anything.
 
 Built something with Comfy? [Add it](SUBMISSION_GUIDELINES.md). Removals are as welcome as additions.
 
@@ -25,11 +25,11 @@ Built something with Comfy? [Add it](SUBMISSION_GUIDELINES.md). Removals are as 
 
 Sections group entries by what you are trying to do. Inside a section, entries sit under one of two headings.
 
-**From Comfy** means Comfy Org builds, maintains or officially supports it. Problems with it belong on that project's own issue tracker.
+**From Comfy** means Comfy Org's own team built it. That is the whole claim. Some of it is maintained software on a release cadence, and plenty of it is a demo, an example app or a weekend build that works and that nobody is tending. The heading tells you where a thing came from, not that anyone is on call for it. A problem belongs on that project's own issue tracker, which is the right place to raise it rather than a promise that someone is watching.
 
-**From the community** means someone else builds and maintains it. It is listed because it is useful.
+**From the community** means someone else built it. It is listed because it is useful.
 
-Neither heading is a quality or a safety rating. **From Comfy** says who maintains the thing at the other end of the link, and nothing more than that. A partner integration is not a Comfy product either: where a hosted service or a partner model sits behind a Comfy API, the API is Comfy's and the service is the partner's.
+Neither heading is a quality rating, a safety rating or a support commitment. **From Comfy** says who wrote the thing at the other end of the link, and nothing more than that. A partner integration is not a Comfy product either: where a hosted service or a partner model sits behind a Comfy API, the API is Comfy's and the service is the partner's.
 
 ### Installing third-party projects
 
@@ -45,7 +45,7 @@ Products, tools and apps that run Comfy underneath.
 
 ### From the community
 
-Made and maintained by other people. Read [Installing third-party projects](#installing-third-party-projects) before you run any of it.
+Made by other people. Read [Installing third-party projects](#installing-third-party-projects) before you run any of it.
 
 **Tools that put Comfy inside something else:**
 

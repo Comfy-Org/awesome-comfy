@@ -31,9 +31,9 @@ For anything in **Built with Comfy** or **Work made with Comfy**:
 
 ## Which heading an entry goes under
 
-Most sections are split into **From Comfy** and **From the community**. The split is about one thing: who maintains and supports the project at the other end of the link.
+Most sections are split into **From Comfy** and **From the community**. The split is about one thing: who built the project at the other end of the link. It says nothing about maintenance or support on either side of it.
 
-13. **From Comfy** is for projects Comfy Org builds, maintains or officially supports. In practice that is the `Comfy-Org` GitHub organisation, `comfy.org` and its subdomains, and the official Discord, forum and YouTube channel. Nothing else qualifies, including a fork of a Comfy Org project.
+13. **From Comfy** is for projects built by Comfy Org's own team. In practice that is the `Comfy-Org` GitHub organisation, `comfy.org` and its subdomains, and the official Discord, forum and YouTube channel. Nothing else qualifies, including a fork of a Comfy Org project. Authorship is the only test. Whether anyone is still maintaining it does not move an entry between headings, and a heading never implies that someone is.
 14. **A partner, customer or integration is not From Comfy.** A hosting provider that runs Comfy, a studio that shipped work with it, a partner model reachable through a Comfy API: all of those are **From the community**. Where a partner model sits behind a Comfy API, the API is Comfy's and the model is the partner's, and the entry follows whichever one it links to.
 15. **Neither heading is a rating.** Do not move an entry between headings to signal quality, maturity or preference, and do not add a third heading for a closer relationship. If affiliation is genuinely unclear, say so in the pull request rather than picking one.
 

@@ -71,7 +71,7 @@ stranger can open, and whether you made it. Lanternfish is not real, so do not s
 | An install path or first-run guide | Getting started | From the community |
 | Docs, a course, a channel, a wiki, a community space | Learning | From the community |
 
-Your entry goes under **From the community** unless Comfy Org builds and maintains it. Being a Comfy partner, customer or integration does not make an entry **From Comfy**.
+Your entry goes under **From the community** unless Comfy Org's own team built it. Being a Comfy partner, customer or integration does not make an entry **From Comfy**.
 
 **Work made with Comfy** has no affiliation heading, because the work there is always the maker's own. Pick the sub-group that fits: film and television, advertising and campaigns, games, studios and 3D, public art and installations, teaching.
 
@@ -133,7 +133,7 @@ Fine, and often useful. Link the public evidence, do not speak for the author, a
 
 ## What a listing means, and does not
 
-Entries under **From the community** are made and maintained by other people. An entry is checked against the bar for fit, not audited for safety. Comfy Org does not certify that a listed project is safe, does not vet its code, models or data, and does not take responsibility for what it does. Readers install at their own risk, and the [note in the README](README.md#installing-third-party-projects) says so plainly.
+Entries under **From the community** are other people's work. An entry is checked against the bar for fit, not audited for safety. Comfy Org does not certify that a listed project is safe, does not vet its code, models or data, and does not take responsibility for what it does. Readers install at their own risk, and the [note in the README](README.md#installing-third-party-projects) says so plainly.
 
 By submitting, you are confirming that the entry text is yours to contribute under [CC0-1.0](LICENSE). That covers the line you wrote here. It does not change the license of the project you are linking to, and it does not transfer any name, logo or trademark.
 
