@@ -9,15 +9,15 @@ Checked items are done in the tree. Unchecked items are either a repository sett
 None of these can be done in a commit.
 
 - [x] **Description.** Already set, and it reads well.
-- [ ] **Topics.** Currently none. Suggested: `awesome`, `awesome-list`, `comfyui`, `comfy`, `stable-diffusion`, `custom-nodes`, `workflows`. The first two are what the awesome index requires and what its scrapers key on.
+- [x] **Topics.** Set: `awesome`, `awesome-list`, `comfy`, `comfyui`, `custom-nodes`, `generative-ai`, `stable-diffusion`, `workflows`. The first two are what the awesome index requires and what its scrapers key on.
 - [ ] **Social preview image.** Without one, every share renders as a grey GitHub placeholder. Needs a 1280x640 image from whoever owns the brand assets.
 - [ ] **Issue templates.** Already in the tree. Confirm both forms render after the repository is public, because a malformed form fails silently and falls back to a blank issue.
-- [ ] **Labels.** The forms apply `report` and `suggestion`. GitHub silently drops labels that do not exist, so create them or the forms apply nothing.
+- [x] **Labels.** `suggestion` and `report` now exist, so both forms apply what they declare. GitHub silently drops labels that do not exist.
 - [x] **Discussions.** Already off, and worth leaving off. A list has two real interactions, propose and report, and both are already issues or pull requests. An empty Discussions tab reads as abandonment, and a busy one becomes a support channel for Comfy itself, which belongs in Discord. Turn it on later if people ask for something the two issue forms cannot carry.
-- [ ] **Branch protection on `main`.** Require a pull request, require one approval, dismiss stale approvals, block force pushes. Allow maintainers to merge their own trivial fixes or triage becomes slower than it needs to be.
-- [ ] **Private vulnerability reporting.** `SECURITY.md` links to the advisory form, which 404s until the setting is enabled.
-- [ ] **Wiki and Projects.** Off. Nothing will live there.
-- [ ] **Allow only squash merges.** Keeps the history one commit per entry, which makes a bad entry trivial to revert.
+- [ ] **Branch protection on `main`.** Require a pull request, require one approval, dismiss stale approvals, block force pushes. Allow maintainers to merge their own trivial fixes or triage becomes slower than it needs to be. Worth turning on at launch rather than before it, because it blocks the direct pushes the remaining prep still needs.
+- [ ] **Private vulnerability reporting.** `SECURITY.md` links to the advisory form, which 404s until the setting is enabled. GitHub offers the setting on public repositories only, so this one cannot be done early: it has to be the first click after the repository goes public.
+- [x] **Wiki and Projects.** Already off, confirmed. Nothing will live there.
+- [x] **Allow only squash merges.** Done, and branches delete on merge. Keeps the history one commit per entry, which makes a bad entry trivial to revert.
 - [ ] **CODE_OF_CONDUCT.md.** Not in the tree, deliberately. Contributor Covenant needs a working enforcement address in the text, and shipping one with a placeholder is worse than not having the file. The awesome index asks for a code of conduct, so this blocks index submission.
 
 In the tree already:
@@ -60,10 +60,12 @@ Worth deciding now rather than during the first incident. Removal is not the onl
 
 ## Staying current without a dated claim
 
+Every one of the 167 links in `README.md` resolved on 2026-10-23. The single exception is the report form, which 404s only because the repository is still private.
+
 Nothing in the list carries a date, a count or a status word, and that should hold. Freshness has to come from checks, not from claims.
 
-- [ ] **Add a link checker on a schedule and on pull requests.** A dead link is the most common way a list rots, and the only item on the bar a machine can check reliably. Not in the tree, because adding CI to a repository with no CI is a change worth making deliberately.
-- [ ] **Add `awesome-lint` to the same job**, once the items under the awesome index below are resolved.
+- [x] **Add a link checker on a schedule and on pull requests.** `.github/workflows/lint.yml` runs lychee over every markdown file on each pull request, on pushes to `main`, and every Monday. A pull request fails on a dead link. The weekly run does not fail; it opens an issue labelled `report` instead, so rot lands where triage already looks. `.lycheeignore` holds the one URL a machine cannot check, the advisory form, which GitHub shows only to signed-in users.
+- [x] **Add `awesome-lint` to the same workflow.** Running, and the list passes clean today.
 - [ ] **Decide how the node pack ordering gets refreshed.** `CONTRIBUTING.md` publishes the query that reproduces it and says not to reorder by hand, so either someone runs it periodically or it is scripted. Right now it is neither.
 - [ ] **Decide whether archived upstream repositories are removed automatically.** GitHub exposes the archived flag, so this is cheap to detect and it is the single highest-signal rot check after dead links.
 
@@ -91,12 +93,12 @@ In rough order of how much traffic each is likely to send.
 
 Getting into `sindresorhus/awesome` is worth real traffic, and the list does not currently qualify. The requirements are strict and mechanical.
 
-- [ ] **Rename the repository to `awesome-comfy`.** The index requires a lowercase `awesome-*` slug. Every self-reference in these files already points at the new name, so the rename is the only step left. Renaming is free on GitHub and leaves a redirect, but it changes every link anyone has already shared.
-- [ ] **Add the awesome badge** to the right of the heading. Required.
+- [x] **Repository named `awesome-comfy`.** The index requires a lowercase `awesome-*` slug, and `Comfy-Org/awesome-comfy` is the slug. Nothing further to do.
+- [x] **The awesome badge** sits to the right of the heading. Required, and present.
 - [ ] **Code of conduct required.** Same blocker as above.
-- [ ] **Thirty-day age requirement**, counted from the first real commit or from going public.
-- [ ] **Strip trailing slashes from entry URLs.** The linter rejects them and roughly thirty-four entries have one. Do not bulk-strip: some are real directory paths that will redirect, so each needs a check.
-- [ ] **Run `awesome-lint` and fix what it finds.** Expect complaints beyond the trailing slashes.
+- [ ] **Thirty-day age requirement**, counted from the first real commit or from going public. The first commit is 2026-10-07, so the earliest a submission can be made on that reading is 2026-11-06. If the clock runs from going public instead, it starts the day the repository flips.
+- [x] **Trailing slashes are not a blocker after all.** Thirty-three entry URLs still end in one, almost all of them comfy.org pages where the slash is the canonical path. `awesome-lint` does not object, so leave them.
+- [x] **`awesome-lint` passes with no errors**, and now runs in CI so it keeps passing.
 - [ ] **The submission itself is manual work for a person**: the index requires reviewing several other open pull requests with substantive feedback before yours is considered.
 
 ## Open legal questions
