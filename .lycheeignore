@@ -1,0 +1,3 @@
+# GitHub serves the private advisory form only to signed-in users, so an
+# anonymous check reads it as missing. It is linked from SECURITY.md.
+https://github.com/Comfy-Org/awesome-comfy/security/advisories/new
