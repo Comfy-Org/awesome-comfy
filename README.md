@@ -59,8 +59,8 @@ Made and maintained by other people. Read [Installing third-party projects](#ins
 **Apps on top of your own Comfy:**
 
 - [ComfyTV](https://github.com/jtydhr88/ComfyTV) - Turns Comfy into a canvas app where each stage is its own node, across image, video, audio and 3D.
-- [Velorn](https://velorn.ai) - An open-source desktop video workstation that runs any Comfy workflow on a timeline, locally or in the cloud.
-- [ComfyLink](https://comfylink.app) - An iOS and Android remote for your own Comfy machine, paired through a node you install in Comfy.
+- [Velorn](https://velorn.ai) - An open-source desktop video workstation that runs any Comfy workflow on a timeline, locally or in the cloud. ([source](https://github.com/VelornLabs/velorn))
+- [ComfyLink](https://comfylink.app) - An iOS and Android remote for your own Comfy machine, paired through a node you install in Comfy. ([the node](https://github.com/huijiutian/ComfyUI-ComfyLink))
 - [ComfyUI Metadata Viewer](https://huggingface.co/spaces/QES/ComfyUI_Metadata_Viewer) - Drop a Comfy output file in the browser and read back the models, parameters and prompt embedded in it.
 
 ### From Comfy

@@ -76,13 +76,13 @@ Recommend yes, narrowly.
 - [ ] **Invite the authors whose work is already listed under From the community.** Most of those entries are other people's projects, listed without them being asked. Telling them before the repository is public turns a surprise into a courtesy, catches descriptions we got wrong, and means launch day has advocates rather than an audience. The node pack authors near the top of the install-count list are the ones worth a direct message.
 - [ ] **Do not seed by soliciting new submissions before launch.** An empty list with a queue of pending pull requests is a worse first impression than a full list with none.
 - [ ] **Decide whether the showcase entries need their subjects' sign-off.** The studios and schools in Work made with Comfy are already written up on Comfy's own pages, so this is probably covered, but the list repeats claims about named companies in a new venue.
-- [ ] **Check the entries that have no public author.** An app on anonymous hosting with no repository and nobody named cannot be placed under either heading honestly, and it is the kind of entry a reader will ask about first. Either attribute it or drop it before launch rather than after.
+- [x] **Checked the entries that have no public author.** Two were listed by their product site alone, Velorn and ComfyLink, and both turned out to be attributable rather than anonymous: `VelornLabs/velorn`, GPL-3.0, and `huijiutian/ComfyUI-ComfyLink`, MIT, both pushed to in October. Each entry now carries its repository, so nothing has to be dropped. Every other community entry already resolves to a named author, a company or a channel.
 
 ## Discoverability
 
 In rough order of how much traffic each is likely to send.
 
-- [ ] **GitHub topics.** The cheapest thing on this page and the one most lists skip. `awesome-list` is how the topic browsers and the awesome scrapers find a list at all.
+- [x] **GitHub topics.** Set, see above. `awesome-list` is how the topic browsers and the awesome scrapers find a list at all.
 - [ ] **Link it from the docs.** A line in the docs community pages, and in `docs.comfy.org/community/links`, which the list itself points at. Reciprocal linking is most of how lists get found.
 - [ ] **Add it to `docs.comfy.org/llms.txt`.** The list is a dense, well-structured index of the ecosystem, which is exactly the shape that file exists to serve.
 - [ ] **Link it from the registry and from ComfyUI-Manager**, where someone deciding what to install already is.
