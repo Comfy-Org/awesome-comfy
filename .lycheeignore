@@ -1,3 +1,15 @@
 # GitHub serves the private advisory form only to signed-in users, so an
-# anonymous check reads it as missing. It is linked from SECURITY.md.
-https://github.com/Comfy-Org/awesome-comfy/security/advisories/new
+# anonymous check reads it as missing. SECURITY.md links it.
+^https://github\.com/Comfy-Org/awesome-comfy/security/advisories/new$
+
+# Worked-example placeholders in SUBMISSION_GUIDELINES.md and CONTRIBUTING.md.
+# They are meant to be fictional: a checker that resolved them would mean
+# someone had registered the example names.
+^https://url/?$
+^https://github\.com/example/
+^https://lanternfish\.example/
+^https://youtu\.be/example$
+
+# The registry API, which answers 401 without a key. CONTRIBUTING.md cites it
+# as the way to verify a node pack, not as a page to read.
+^https://api\.comfy\.org/nodes
