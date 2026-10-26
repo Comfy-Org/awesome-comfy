@@ -37,7 +37,7 @@ An entry is checked against [the bar](CONTRIBUTING.md) for fit, not audited for 
 
 Custom nodes and apps are executable code, not metadata. They run with the same access as the Comfy process that loads them, which on a local install is your own user account, your files and your network. Trust a pack as much as you would trust any other software you choose to install: read the source, check who publishes it, and accept that you are the one running it.
 
-If an entry is malicious, misleading or harmful, [report it](https://github.com/Comfy-Org/awesome-comfy/issues/new?template=report-an-entry.yml) and it will be removed. Removing an entry does nothing to the project itself, which stays wherever its author put it.
+If an entry is malicious, misleading or harmful, [report it](https://github.com/Comfy-Org/awesome-comfy/issues/new?template=report-an-entry.yml). That form is how an entry comes off the list, and no timeframe is promised for it. Removing an entry does nothing to the project itself, which stays wherever its author put it.
 
 ## Built with Comfy
 

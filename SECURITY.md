@@ -18,7 +18,7 @@ ComfyUI has its own [security policy](https://github.com/comfyanonymous/ComfyUI/
 
 ## An entry that should not be on the list
 
-If a listed project is malicious, misleading or harmful, or if an entry exposes private information or an unauthenticated destructive action, [report the entry](https://github.com/Comfy-Org/awesome-comfy/issues/new?template=report-an-entry.yml) and it will be removed.
+If a listed project is malicious, misleading or harmful, or if an entry exposes private information or an unauthenticated destructive action, [report the entry](https://github.com/Comfy-Org/awesome-comfy/issues/new?template=report-an-entry.yml). Removal is what that form exists for, though nothing here commits anyone to a timeframe.
 
 Bring evidence: the version or commit, the exact file and lines, and what the code does. A scanner result can support a case but does not settle one, because node packs legitimately read files, write to disk and reach the network, and scanners produce false positives. [CONTRIBUTING.md](CONTRIBUTING.md) sets out when an entry comes out and when it gets corrected instead.
 

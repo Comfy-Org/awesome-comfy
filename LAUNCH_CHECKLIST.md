@@ -41,11 +41,11 @@ In the tree already:
 
 ## Triage
 
-This is the largest unresolved item. A list with no named triager becomes a stale list with open pull requests, which is worse than no list.
+Nothing in this repository promises anyone a response, by decision. A commitment on a list nobody is staffed to triage is a liability, so the documents say plainly that there is no response time. That removes the obligation, not the work: a list with no named triager still becomes a stale list with open pull requests.
 
-- [ ] **Name a primary triager and a backup.** Still unassigned. `.github/CODEOWNERS` carries one name so that review is requested from someone rather than from nobody, but one reviewer is a single point of failure for a takedown route and the file says so.
-- [x] **Confirm the response time.** Decided and now written down, which it previously was not: a first reply to a pull request within a week, a report of something harmful acknowledged the same day, and an entry out within 48 hours where it ships malicious code, exfiltrates data, breaks an install or exposes something it should not. Nothing else carries a promise. A submitter will hold us to these, so they need the named human above.
-- [ ] **Subscribe the triagers to the repository**, and route the `report` label somewhere a human sees it the same day. An unwatched report form is a liability, not a takedown process.
+- [ ] **Name a primary triager and a backup.** Still unassigned, and no longer a launch blocker now that nothing is promised. `.github/CODEOWNERS` carries one name so review is requested from someone rather than from nobody.
+- [x] **Confirm the response time.** Decided: there is no response time and nothing in the repository claims one. `SUBMISSION_GUIDELINES.md` says so to a submitter's face, and the unconditional removal promise is out of `SECURITY.md`. Any number here would be a commitment nobody is staffed to keep.
+- [ ] **Subscribe someone to the repository** so the `report` label reaches a human. No longer an obligation, because no timeframe is published, but an unread report form is still the difference between a takedown route and the appearance of one.
 - [ ] **Decide the review depth.** The honest position, and the one the README now takes, is that an entry is checked for fit and link health, not audited. Do not let that quietly become a security review in people's heads, because the disclaimer stops being true the moment we start implying we audit.
 
 ## When a listed project turns bad after listing

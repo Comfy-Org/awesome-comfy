@@ -123,13 +123,11 @@ The full list is in [CONTRIBUTING.md](CONTRIBUTING.md).
 
 One pull request per addition, unless the additions are a coherent set. If you are changing someone else's entry, or removing one, say why in the description. Removals are welcome.
 
-## What happens after you submit, and how fast
+## What happens after you submit
 
-A pull request gets a first reply within a week. That is a reply and not necessarily a decision, because a question about whether an entry fits can take longer than a week to settle.
+There is no response time on this and no promise of one. There is no staffed queue behind the list, so a pull request can sit, and nothing here commits anyone to replying by any particular day. Bump it if it goes quiet.
 
-A report of something harmful is acknowledged the same day. Where it falls into the categories that damage a reader, shipping malicious code, exfiltrating data, breaking an install or exposing something it should not, the entry comes out within 48 hours and the discussion happens afterwards. Taking an entry out is reversible and leaving a harmful one up is not, so the benefit of the doubt goes to the reader.
-
-Nothing else here carries a promise, and that is deliberate. A number nobody keeps is worse than no number at all.
+Worth knowing before you spend effort on an entry rather than after. A pull request is still the faster of the two routes, because the edit is already written and there is nothing left to do but merge it.
 
 ## If you would rather not open a pull request
 

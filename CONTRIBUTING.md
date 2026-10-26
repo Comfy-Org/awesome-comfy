@@ -69,7 +69,7 @@ Other sections lead with the things most worth a reader's first click. That appl
 
 ## Removals
 
-Removals are as welcome as additions, and usually more useful. Open a pull request that removes the entry and say why, or [report it](https://github.com/Comfy-Org/awesome-comfy/issues/new?template=report-an-entry.yml) if you would rather not. [SUBMISSION_GUIDELINES.md](SUBMISSION_GUIDELINES.md) says how quickly a report gets answered and acted on.
+Removals are as welcome as additions, and usually more useful. Open a pull request that removes the entry and say why, or [report it](https://github.com/Comfy-Org/awesome-comfy/issues/new?template=report-an-entry.yml) if you would rather not.
 
 An entry comes out when:
 
