@@ -60,7 +60,9 @@ Worth deciding now rather than during the first incident. Removal is not the onl
 
 ## Staying current without a dated claim
 
-Every one of the 167 links in `README.md` resolved on 2026-10-23. The single exception is the report form, which 404s only because the repository is still private.
+Every one of the 167 links in `README.md` resolved on 2026-10-23, and the scheduled run has passed every Monday since. The single exception is the report form, which 404s only because the repository is still private.
+
+`cookiecutter-comfy-extension` was removed on 2026-10-26 for failing bar item 8: last meaningful push 2026-03-30, 210 days. It is Comfy Org's own scaffolding tool and had 54 stars, so the bar was applied to a From Comfy entry rather than bent for one. Restoring it is one revert if that call changes.
 
 Nothing in the list carries a date, a count or a status word, and that should hold. Freshness has to come from checks, not from claims.
 

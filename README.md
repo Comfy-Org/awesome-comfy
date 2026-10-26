@@ -271,7 +271,6 @@ curl -s "https://api.comfy.org/nodes?page=1&limit=100&sort=total_install%3Bdesc&
 - [Server-side reference](https://docs.comfy.org/custom-nodes/backend/server_overview) - `INPUT_TYPES`, `RETURN_TYPES`, `FUNCTION`, lifecycle and the rest of the contract.
 - [Datatypes](https://docs.comfy.org/custom-nodes/backend/datatypes) - The type system that decides which sockets connect.
 - [Shipping templates with a pack](https://docs.comfy.org/custom-nodes/workflow_templates) - So users get an example workflow on install.
-- [cookiecutter-comfy-extension](https://github.com/Comfy-Org/cookiecutter-comfy-extension) - Scaffolds a publishable node pack with the metadata already correct.
 - [ComfyUI_frontend](https://github.com/Comfy-Org/ComfyUI_frontend) - The Vue front end the editor runs on.
 - [comfyui-native-port-guide](https://github.com/Comfy-Org/comfyui-native-port-guide) - Conventions for adding native model support to core, rather than wrapping it in a pack.
 - [embedded-docs](https://github.com/Comfy-Org/embedded-docs) - The help pages shown inside the editor for core nodes, and how to add yours.
