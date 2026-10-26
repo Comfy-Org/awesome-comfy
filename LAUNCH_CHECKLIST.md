@@ -14,7 +14,7 @@ None of these can be done in a commit.
 - [ ] **Issue templates.** Already in the tree. Confirm both forms render after the repository is public, because a malformed form fails silently and falls back to a blank issue.
 - [x] **Labels.** `suggestion` and `report` now exist, so both forms apply what they declare. GitHub silently drops labels that do not exist.
 - [x] **Discussions.** Already off, and worth leaving off. A list has two real interactions, propose and report, and both are already issues or pull requests. An empty Discussions tab reads as abandonment, and a busy one becomes a support channel for Comfy itself, which belongs in Discord. Turn it on later if people ask for something the two issue forms cannot carry.
-- [ ] **Branch protection on `main`.** Require a pull request, require one approval, dismiss stale approvals, block force pushes. Allow maintainers to merge their own trivial fixes or triage becomes slower than it needs to be. Worth turning on at launch rather than before it, because it blocks the direct pushes the remaining prep still needs.
+- [x] **Branch protection on `main`.** On. A pull request is required, one approval from anyone with write access, stale approvals dismissed on a new push, unresolved conversations block merging, linear history enforced, and force pushes and deletions refused. `awesome-lint` and `Links` are required checks, so a dead link cannot merge. Administrators are exempt on purpose: an entry that has to come out in minutes cannot wait for a review cycle, and the same exemption covers the remaining direct-push prep.
 - [ ] **Private vulnerability reporting.** `SECURITY.md` links to the advisory form, which 404s until the setting is enabled. GitHub offers the setting on public repositories only, so this one cannot be done early: it has to be the first click after the repository goes public.
 - [x] **Wiki and Projects.** Already off, confirmed. Nothing will live there.
 - [x] **Allow only squash merges.** Done, and branches delete on merge. Keeps the history one commit per entry, which makes a bad entry trivial to revert.
@@ -43,8 +43,8 @@ In the tree already:
 
 This is the largest unresolved item. A list with no named triager becomes a stale list with open pull requests, which is worse than no list.
 
-- [ ] **Name a primary triager and a backup.** Unassigned.
-- [ ] **Confirm the response time.** `SUBMISSION_GUIDELINES.md` currently promises a first reply within a week. That number is in the tree and a submitter will hold us to it. Either someone accepts it or it needs changing before launch.
+- [ ] **Name a primary triager and a backup.** Still unassigned. `.github/CODEOWNERS` carries one name so that review is requested from someone rather than from nobody, but one reviewer is a single point of failure for a takedown route and the file says so.
+- [x] **Confirm the response time.** Decided and now written down, which it previously was not: a first reply to a pull request within a week, a report of something harmful acknowledged the same day, and an entry out within 48 hours where it ships malicious code, exfiltrates data, breaks an install or exposes something it should not. Nothing else carries a promise. A submitter will hold us to these, so they need the named human above.
 - [ ] **Subscribe the triagers to the repository**, and route the `report` label somewhere a human sees it the same day. An unwatched report form is a liability, not a takedown process.
 - [ ] **Decide the review depth.** The honest position, and the one the README now takes, is that an entry is checked for fit and link health, not audited. Do not let that quietly become a security review in people's heads, because the disclaimer stops being true the moment we start implying we audit.
 
