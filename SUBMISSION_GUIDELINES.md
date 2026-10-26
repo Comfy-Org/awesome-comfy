@@ -123,6 +123,14 @@ The full list is in [CONTRIBUTING.md](CONTRIBUTING.md).
 
 One pull request per addition, unless the additions are a coherent set. If you are changing someone else's entry, or removing one, say why in the description. Removals are welcome.
 
+## What happens after you submit, and how fast
+
+A pull request gets a first reply within a week. That is a reply and not necessarily a decision, because a question about whether an entry fits can take longer than a week to settle.
+
+A report of something harmful is acknowledged the same day. Where it falls into the categories that damage a reader, shipping malicious code, exfiltrating data, breaking an install or exposing something it should not, the entry comes out within 48 hours and the discussion happens afterwards. Taking an entry out is reversible and leaving a harmful one up is not, so the benefit of the doubt goes to the reader.
+
+Nothing else here carries a promise, and that is deliberate. A number nobody keeps is worse than no number at all.
+
 ## If you would rather not open a pull request
 
 [Suggest an entry](https://github.com/Comfy-Org/awesome-comfy/issues/new?template=suggest-an-entry.yml) in an issue instead. A pull request is the faster path, because the edit is already written.

@@ -1,0 +1,10 @@
+# Review is auto-requested from the people listed here on every pull request.
+#
+# This is assignment, not a gate. Branch protection asks for one approval from
+# anyone with write access, so a pull request never sits waiting on one person,
+# and an entry that needs taking down does not wait for a review cycle.
+#
+# A second name belongs on this line. One reviewer is a single point of failure
+# for a takedown route.
+
+*	@deepme987
