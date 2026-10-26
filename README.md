@@ -75,6 +75,7 @@ Made by other people. Read [Installing third-party projects](#installing-third-p
 
 - [comfy-cinematic-studio](https://github.com/Comfy-Org/comfy-cinematic-studio) - Source and development guide for Cinematic Studio above.
 - [comfy-reshoot](https://github.com/Comfy-Org/comfy-reshoot) - A workflow-deployment app, built to be cloned and changed.
+- [comfy-openjutsu](https://github.com/Comfy-Org/comfy-openjutsu) - Source and development guide for Openjutsu above, run on your own Comfy deployment.
 
 **One-click deploy examples** from [comfy-examples](https://github.com/Comfy-Org/comfy-examples), each a small complete app with a deploy button:
 
