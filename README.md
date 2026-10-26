@@ -69,11 +69,13 @@ Made by other people. Read [Installing third-party projects](#installing-third-p
 
 - [Emojinius](https://emojinius.comfy.org) - Upload a character and get back a pack of animated Slack emojis. Needs your own Comfy API key; generation is billed to your account.
 - [Cinematic Studio](https://comfy.org/hub/apps/cinematic-studio/) - Direct a shot with a real camera, light and grade it, then run it on any image model.
+- [Openjutsu](https://comfy.org/hub/apps/openjutsu/) - Swap the main person in a 5 to 15 second clip for the character in one image, keeping the scene, motion and sound. Runs MiniMax H3; needs a Comfy sign-in, and runs are billed in credits.
 
 **Clonable app guides**, a working app plus a walkthrough of how it is wired:
 
 - [comfy-cinematic-studio](https://github.com/Comfy-Org/comfy-cinematic-studio) - Source and development guide for Cinematic Studio above.
 - [comfy-reshoot](https://github.com/Comfy-Org/comfy-reshoot) - A workflow-deployment app, built to be cloned and changed.
+- [comfy-openjutsu](https://github.com/Comfy-Org/comfy-openjutsu) - Source and development guide for Openjutsu above, run on your own Comfy deployment.
 
 **One-click deploy examples** from [comfy-examples](https://github.com/Comfy-Org/comfy-examples), each a small complete app with a deploy button:
 
