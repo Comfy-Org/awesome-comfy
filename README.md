@@ -103,7 +103,6 @@ Films, campaigns, games and public art. The work is the makers' own, and the cre
 **Games:**
 
 - [ComfyCrawler](https://mowmeow.net/ComfyCrawlerTest/) - A dungeon crawler in a Windows 95 interface, with its art and music generated in Comfy. The hosted build is a read-only edition.
-- [Rise of the Penguins GB](https://billwoo.itch.io/rise-of-the-penguins-gb) - A Game Boy style action platformer playable in the browser. The developer credits Comfy among the tools used for its pixel art.
 
 **Studios and 3D:**
 
