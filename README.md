@@ -4,7 +4,7 @@
 
 For artists who want to see what is possible, and for engineers who want to know where to start. New here? Getting started is the second-to-last section.
 
-Entries sit under **From Comfy** for what Comfy Org's own team built, and **From the community** for everything else. Neither heading says anyone is maintaining the thing, and listing something is not a safety audit. How to read this list, below, has the detail, and it is worth reading before you install anything.
+Inside each section, entries sit under **From Comfy** for what Comfy Org's own team built, and **From the community** for everything else. Neither heading says anyone is maintaining the thing, and listing something is not a safety audit. How to read this list, below, has the detail, and it is worth reading before you install anything.
 
 Built something with Comfy? [Add it](SUBMISSION_GUIDELINES.md). Removals are as welcome as additions.
 
@@ -23,7 +23,7 @@ Built something with Comfy? [Add it](SUBMISSION_GUIDELINES.md). Removals are as 
 
 ## How to read this list
 
-Sections group entries by what you are trying to do. Inside a section, entries sit under one of two headings.
+Sections group entries by what you are trying to do. Inside most sections, entries sit under one of two headings.
 
 **From Comfy** means Comfy Org's own team built it. That is the whole claim. Some of it is maintained software on a release cadence, and plenty of it is a demo, an example app or a weekend build that works and that nobody is tending. The heading tells you where a thing came from, not that anyone is on call for it. A problem belongs on that project's own issue tracker, which is the right place to raise it rather than a promise that someone is watching.
 
