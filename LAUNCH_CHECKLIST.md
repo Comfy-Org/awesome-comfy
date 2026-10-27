@@ -10,7 +10,7 @@ None of these can be done in a commit.
 
 - [x] **Description.** Already set, and it reads well.
 - [x] **Topics.** Set: `awesome`, `awesome-list`, `comfy`, `comfyui`, `custom-nodes`, `generative-ai`, `stable-diffusion`, `workflows`. The first two are what the awesome index requires and what its scrapers key on.
-- [ ] **Social preview image.** Without one, every share renders as a grey GitHub placeholder. Needs a 1280x640 image from whoever owns the brand assets.
+- [ ] **Social preview image.** Checked on 2026-10-26: `og:image` is still GitHub's generated card, on `opengraph.githubassets.com`. That card is legible but it prints the star and fork counts, so every share of the announcement advertises zero of both. A 1280x640 image from whoever owns the brand assets replaces it, and a custom one serves from `repository-images.githubusercontent.com`, which is how to tell it took.
 - [x] **Issue templates.** Both forms parse and every field carries an id, a valid type and, where they need them, options: 6 fields on the report form and 8 on the suggestion form. Their declared labels, `report` and `suggestion`, both exist on the repository, so GitHub will not silently drop them.
 - [x] **Labels.** `suggestion` and `report` now exist, so both forms apply what they declare. GitHub silently drops labels that do not exist.
 - [x] **Discussions.** Already off, and worth leaving off. A list has two real interactions, propose and report, and both are already issues or pull requests. An empty Discussions tab reads as abandonment, and a busy one becomes a support channel for Comfy itself, which belongs in Discord. Turn it on later if people ask for something the two issue forms cannot carry.
@@ -75,8 +75,8 @@ Nothing in the list carries a date, a count or a status word, and that should ho
 
 Recommend yes, narrowly.
 
-- [ ] **Invite the authors whose work is already listed under From the community.** Most of those entries are other people's projects, listed without them being asked. Telling them before the repository is public turns a surprise into a courtesy, catches descriptions we got wrong, and means launch day has advocates rather than an audience. The node pack authors near the top of the install-count list are the ones worth a direct message.
-- [ ] **Do not seed by soliciting new submissions before launch.** An empty list with a queue of pending pull requests is a worse first impression than a full list with none.
+- [ ] **Invite the authors whose work is already listed under From the community.** Most of those entries are other people's projects, listed without them being asked. The pre-launch version of this expired on 2026-10-26, so it is now a heads-up rather than a courtesy, but it still catches descriptions we got wrong and it still turns an audience into advocates. Ten entries, all under Built with Comfy, now that the pack authors are no longer listed.
+- [x] **Do not seed by soliciting new submissions before launch.** Held. The repository went public with 113 entries, zero open pull requests and zero open issues, which is the right way round.
 - [ ] **Decide whether the showcase entries need their subjects' sign-off.** The studios and schools in Work made with Comfy are already written up on Comfy's own pages, so this is probably covered, but the list repeats claims about named companies in a new venue.
 - [x] **Checked the entries that have no public author.** Two were listed by their product site alone, Velorn and ComfyLink, and both turned out to be attributable rather than anonymous: `VelornLabs/velorn`, GPL-3.0, and `huijiutian/ComfyUI-ComfyLink`, MIT, both pushed to in October. Each entry now carries its repository, so nothing has to be dropped. Every other community entry already resolves to a named author, a company or a channel.
 

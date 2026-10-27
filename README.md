@@ -1,6 +1,6 @@
 # Awesome Comfy [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-> Things people have built with Comfy: apps and plugins people shipped, films and campaigns that aired, and workflows you can run, plus the APIs, SDKs and node packs for building your own.
+> Things people have built with Comfy: apps and plugins people shipped, films and campaigns that aired, and workflows you can run, plus the APIs and SDKs for building your own.
 
 For artists who want to see what is possible, and for engineers who want to know where to start.
 
