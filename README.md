@@ -25,13 +25,13 @@ Built something with Comfy? [Add it](SUBMISSION_GUIDELINES.md). Removals are as 
 
 Sections group entries by what you are trying to do. Inside most sections, entries sit under one of two headings.
 
-**From Comfy** means Comfy Org's own team built it, and that is the whole claim. Some of it is maintained software on a release cadence, and plenty of it is a demo, an example app or a weekend build that works and that nobody is tending. So a problem belongs on that project's own issue tracker, rather than with someone you have assumed is watching. **From the community** means someone else built it, and it is listed because it is useful.
+**From Comfy** means Comfy Org's own team built it. Some of those are maintained products on a release cadence and plenty are a demo, an example app or a weekend build that works, so the heading tells you who wrote a thing rather than who is looking after it, and a question about one belongs on its own issue tracker. **From the community** means someone else built it, and it is here because it is useful.
 
 Neither heading is a quality rating, a safety rating or a support commitment. Both say who wrote the thing at the other end of the link, and nothing more than that. A partner integration is not a Comfy product either: where a hosted service or a partner model sits behind a Comfy API, the API is Comfy's and the service is the partner's.
 
 ### Installing third-party projects
 
-An entry is checked against [the bar](CONTRIBUTING.md) for fit, not audited for safety. Comfy Org does not certify that a listed project is safe, does not control, test or vet its code, models or data, and may review a listing but does not promise to keep reviewing it. Being on this list is not an endorsement.
+Every entry is checked against [the bar](CONTRIBUTING.md): it fits a section, its link resolves, and its description matches what the thing actually does. That is the whole check. It is not a safety audit, and Comfy Org does not certify that a listed project is safe, does not control, test or vet its code, models or data, and may review a listing but does not promise to keep reviewing it. Being on this list is not an endorsement.
 
 Custom nodes and apps are executable code, not metadata. They run with the same access as the Comfy process that loads them, which on a local install is your own user account, your files and your network. Trust a pack as much as you would trust any other software you choose to install: read the source, check who publishes it, and accept that you are the one running it.
 
@@ -43,7 +43,7 @@ Products, tools and apps that run Comfy underneath.
 
 ### From the community
 
-Made by other people. Read [Installing third-party projects](#installing-third-party-projects) before you run any of it.
+Other people's work: plugins that put Comfy inside the tools you already use, and apps built on top of your own Comfy. All of it is third-party code, so [installing third-party projects](#installing-third-party-projects) is worth a minute first.
 
 **Tools that put Comfy inside something else:**
 
@@ -79,7 +79,7 @@ Made by other people. Read [Installing third-party projects](#installing-third-p
 
 ## Work made with Comfy
 
-Films, campaigns, games and public art. The work is the makers' own, and the credit belongs to the people and studios named in each line. Most of the links are write-ups published by Comfy, so the two headings used elsewhere in this list do not apply here.
+Films, campaigns, games and public art, all of it the makers' own work and credited to the people and studios named in each line. Most links go to a write-up on Comfy's own site, which is why this section needs no affiliation heading.
 
 **Galleries and roundups:**
 
@@ -134,6 +134,8 @@ Films, campaigns, games and public art. The work is the makers' own, and the cre
 
 ## Workflows
 
+Graphs you can open and run, and the format they are saved in.
+
 ### From Comfy
 
 - [comfy.org/workflows](https://comfy.org/workflows) - Browsable catalogue of runnable workflows with the models each one needs, including walkthroughs for [character replacement](https://comfy.org/workflows/use-cases/ai-character-replacement/), [image to video](https://comfy.org/workflows/use-cases/ai-image-to-video/), [sprite sheets](https://comfy.org/workflows/use-cases/sprite-sheet-generator/), [photo restoration](https://comfy.org/workflows/use-cases/restore-old-photos/) and [image to 3D](https://comfy.org/workflows/use-cases/image-to-3d/).
@@ -180,7 +182,7 @@ The API surfaces, SDKs and hosted endpoints for driving Comfy from your own code
 
 ### From the community
 
-Read the third-party note above before you run any of it.
+Other people's libraries for driving Comfy from code. The third-party note above applies to these too.
 
 **Writing workflows as code:**
 
@@ -189,7 +191,7 @@ Read the third-party note above before you run any of it.
 
 ## Node packs
 
-Custom nodes are how Comfy grows. This list does not rank them: install counts move every day and the registry publishes them live, so a curated twenty here would only ever be a stale copy of a better table. Anything you install through either entry below is third-party code that runs inside your Comfy process, so read the third-party note above first.
+Custom nodes are how Comfy grows, and there are thousands of them. The registry ranks them live by install count, with search, versions and scanning, which is a better place to browse than a frozen top twenty here. Packs are third-party code that runs inside your Comfy process, so the note above applies.
 
 **Find and install them with:**
 
@@ -201,6 +203,8 @@ Custom nodes are how Comfy grows. This list does not rank them: install counts m
 - [Custom node troubleshooting](https://docs.comfy.org/troubleshooting/custom-node-issues) - Import errors, dependency conflicts and how to bisect them.
 
 ## Writing your own nodes
+
+Everything you need to write a node of your own, from an empty folder to a published pack.
 
 ### From Comfy
 
@@ -217,19 +221,23 @@ Custom nodes are how Comfy grows. This list does not rank them: install counts m
 
 ## Hosting
 
+Running Comfy on someone else's GPU, by renting one or deploying an image.
+
 ### From Comfy
 
 - [Self-hosting guide](https://docs.comfy.org/development/deploy/self-hosting) - Running Comfy on a rented GPU.
 
 ### From the community
 
-Independent providers and images. Comfy Org does not operate these services, hold your data on them, or set their prices. Read the third-party note above first.
+Independent providers and container images, each run by the people who built it. Comfy Org does not operate them, hold your data or set their prices, and the third-party note above applies.
 
 - [ComfyUI-Docker](https://github.com/YanWenKun/ComfyUI-Docker) - Container images across several CUDA and Python combinations.
 - [SaladCloud](https://docs.salad.com/container-engine/how-to-guides/ai-machine-learning/deploy-stable-diffusion-comfy) - Deploy image and video generation with ComfyUI on their container engine.
 - [comfyui-api](https://github.com/SaladTechnologies/comfyui-api) - A stateless API server in front of Comfy that returns images or sends them to webhooks and S3, built for horizontal scaling.
 
 ## Getting started
+
+Pick an install path, run your first workflow, and know where to look when something breaks.
 
 ### From Comfy
 
@@ -244,6 +252,8 @@ Independent providers and images. Comfy Org does not operate these services, hol
 - [Troubleshooting](https://docs.comfy.org/troubleshooting/overview) - Start here when something breaks, before opening an issue.
 
 ## Learning
+
+Where to read, watch and ask once you are past the first run.
 
 ### From Comfy
 
