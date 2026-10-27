@@ -97,8 +97,6 @@ Films, campaigns, games and public art. The work is the makers' own, and the cre
 - [Svedka, Shake Your Bots Off](https://comfy.org/customers/svedka-silverside/) - Silverside AI rebuilt Svedka's lost Fembot on Comfy workflows for a Super Bowl LX spot.
 - [Groove Jones, Dick's Sporting Goods](https://comfy.org/customers/groove-jones/) - A hyper-realistic faux out-of-home holiday campaign for the Crocs x NFL collection, delivered against a short deadline.
 - [Don Diablo, Blackout](https://www.youtube.com/watch?v=cPMNIIZkNIs) - Music video whose image work, including identity modelling and stylization, was done locally in Comfy. ([write-up](https://blogs.nvidia.com/blog/rtx-ai-garage-don-diablo-gen-ai-music-video))
-- [Silverside AI](https://comfy.org/customers/videos/silverside-ai/) - Why node-based workflows give a creative team more control than single-prompt tools. Video.
-- [Black Math](https://comfy.org/customers/videos/black-math/) - Artists and technical directors on building extendable creative systems while keeping art direction. Video.
 
 **Games:**
 
@@ -108,7 +106,6 @@ Films, campaigns, games and public art. The work is the makers' own, and the cre
 
 - [Series Entertainment](https://comfy.org/customers/series-entertainment/) - Over 100,000 assets across multiple Netflix titles, kept consistent by repeatable workflows. ([case study](https://blog.comfy.org/p/case-study-how-series-entertainment))
 - [Ubisoft CHORD](https://comfy.org/customers/ubisoft-chord/) - Ubisoft La Forge open-sourced its PBR material estimation model with Comfy custom nodes. ([announcement](https://blog.comfy.org/p/ubisoft-open-sources-the-chord-model))
-- [Doodles and SYSTMS](https://comfy.org/customers/open-story-movement/) - Doodles AI, a generative platform built on open-source infrastructure including Comfy.
 
 **Public art and installations:**
 
@@ -122,6 +119,8 @@ Films, campaigns, games and public art. The work is the makers' own, and the cre
 - [Beyond the Models](https://comfy.org/events/beyond-the-models/) - Building custom workflows for commercial and film production.
 - [The Future of AI Post Production](https://comfy.org/events/future-ai-post-production/) - Ingi Erlingsson on custom LoRAs and motion graphics nodes in post.
 - [How Black Math built a hackathon in three weeks](https://comfy.org/events/black-math-hackathon/) - A design studio shipping an event-scale build.
+- [Silverside AI](https://comfy.org/customers/videos/silverside-ai/) - Why node-based workflows give a creative team more control than single-prompt tools.
+- [Black Math](https://comfy.org/customers/videos/black-math/) - Artists and technical directors on building extendable creative systems while keeping art direction.
 
 **Teaching:**
 
