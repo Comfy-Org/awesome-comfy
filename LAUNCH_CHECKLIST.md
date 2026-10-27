@@ -1,6 +1,6 @@
 # Launch checklist
 
-What this repository needs before it is public. Pre-launch scaffolding: it comes out of the tree once the repository is public and the items below are settled.
+**The repository went public on 2026-10-26.** What is left below is either a repository setting nobody can commit, or a decision that needs a person. This file is scaffolding and comes out of the tree once the rest is settled.
 
 Checked items are done in the tree. Unchecked items are either a repository setting nobody can commit, or a decision that needs a person.
 
@@ -11,11 +11,11 @@ None of these can be done in a commit.
 - [x] **Description.** Already set, and it reads well.
 - [x] **Topics.** Set: `awesome`, `awesome-list`, `comfy`, `comfyui`, `custom-nodes`, `generative-ai`, `stable-diffusion`, `workflows`. The first two are what the awesome index requires and what its scrapers key on.
 - [ ] **Social preview image.** Without one, every share renders as a grey GitHub placeholder. Needs a 1280x640 image from whoever owns the brand assets.
-- [ ] **Issue templates.** Already in the tree. Confirm both forms render after the repository is public, because a malformed form fails silently and falls back to a blank issue.
+- [x] **Issue templates.** Both forms parse and every field carries an id, a valid type and, where they need them, options: 6 fields on the report form and 8 on the suggestion form. Their declared labels, `report` and `suggestion`, both exist on the repository, so GitHub will not silently drop them.
 - [x] **Labels.** `suggestion` and `report` now exist, so both forms apply what they declare. GitHub silently drops labels that do not exist.
 - [x] **Discussions.** Already off, and worth leaving off. A list has two real interactions, propose and report, and both are already issues or pull requests. An empty Discussions tab reads as abandonment, and a busy one becomes a support channel for Comfy itself, which belongs in Discord. Turn it on later if people ask for something the two issue forms cannot carry.
 - [x] **Branch protection on `main`.** On. A pull request is required, one approval from anyone with write access, stale approvals dismissed on a new push, unresolved conversations block merging, linear history enforced, and force pushes and deletions refused. `awesome-lint` and `Links` are required checks, so a dead link cannot merge. Administrators are exempt on purpose: an entry that has to come out in minutes cannot wait for a review cycle, and the same exemption covers the remaining direct-push prep.
-- [ ] **Private vulnerability reporting.** `SECURITY.md` links to the advisory form, which 404s until the setting is enabled. GitHub offers the setting on public repositories only, so this one cannot be done early: it has to be the first click after the repository goes public.
+- [x] **Private vulnerability reporting.** Enabled, as the first action after the repository went public, which is the earliest GitHub allows it. The advisory form `SECURITY.md` links now exists. It still redirects an anonymous visitor to sign in, which is why `.lycheeignore` keeps it and why that entry should stay.
 - [x] **Wiki and Projects.** Already off, confirmed. Nothing will live there.
 - [x] **Allow only squash merges.** Done, and branches delete on merge. Keeps the history one commit per entry, which makes a bad entry trivial to revert.
 - [ ] **CODE_OF_CONDUCT.md.** Not in the tree, deliberately. Contributor Covenant needs a working enforcement address in the text, and shipping one with a placeholder is worse than not having the file. The awesome index asks for a code of conduct, so this blocks index submission.
@@ -60,7 +60,7 @@ Worth deciding now rather than during the first incident. Removal is not the onl
 
 ## Staying current without a dated claim
 
-Every one of the 167 links in `README.md` resolved on 2026-10-23, and the scheduled run has passed every Monday since. The single exception is the report form, which 404s only because the repository is still private.
+Every one of the links in `README.md` resolved on 2026-10-23, and again on 2026-10-26 in the public state, with the repository page, the raw README, the report form and the security policy all reachable without an account. The scheduled run has passed every Monday since.
 
 `cookiecutter-comfy-extension` was removed on 2026-10-26 for failing bar item 8: last meaningful push 2026-03-30, 210 days. It is Comfy Org's own scaffolding tool and had 54 stars, so the bar was applied to a From Comfy entry rather than bent for one. Restoring it is one revert if that call changes.
 
