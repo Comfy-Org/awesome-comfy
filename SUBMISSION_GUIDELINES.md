@@ -65,7 +65,6 @@ stranger can open, and whether you made it. Lanternfish is not real, so do not s
 | A film, campaign, game, installation or exhibited work | Work made with Comfy | no heading, see below |
 | A runnable workflow, or a spec for the workflow format | Workflows | From the community |
 | A library, SDK, client or code generator for driving Comfy | Build your own | From the community |
-| A custom node pack | Node packs | From the community |
 | A template or tool for people writing nodes | Writing your own nodes | From the community |
 | A hosting provider, container image or deployment recipe | Hosting | From the community |
 | An install path or first-run guide | Getting started | From the community |
@@ -95,9 +94,9 @@ Not good, and why:
 
 | Line | Problem |
 |---|---|
-| `- [FooNodes](...) - The best and most powerful node pack for ComfyUI!` | Superlatives. Say what the nodes do. |
-| `- [FooNodes](...) - A node pack.` | Says nothing a reader can act on. |
-| `- [FooNodes](...) - Nodes for video. Also has masks. Plus some samplers. Work in progress, more coming soon!` | Several sentences, and a roadmap. One sentence, present tense, what exists today. |
+| `- [FooEditor](...) - The best and most powerful Comfy front end ever built!` | Superlatives. Say what it does. |
+| `- [FooEditor](...) - A Comfy tool.` | Says nothing a reader can act on. |
+| `- [FooEditor](...) - Edits video. Also does masks. Plus some upscaling. Work in progress, more coming soon!` | Several sentences, and a roadmap. One sentence, present tense, what exists today. |
 | `- [FooApp](...) - The next-generation creative suite, reimagined` | Marketing, no period, and still does not say what it does. No emoji either. |
 | `- [FooApp](...) - Generates video from text.` when it plays a pre-rendered clip | Claims behaviour the thing does not have. This gets closed. |
 
@@ -111,7 +110,7 @@ Most of these are fixable in a follow-up commit.
 - **The link does not resolve.** Check it the day you submit.
 - **Comfy is optional.** If Comfy is one backend among several and the project works fine without it, it is not built with Comfy.
 - **Something already covers it.** Say what yours does differently. Two entries doing the same thing is a reason to replace one, not to add another.
-- **A node pack is not in the [Comfy Registry](https://registry.comfy.org/).** Publish it first, then submit.
+- **It is a custom node pack.** The [Comfy Registry](https://registry.comfy.org/) indexes those, searchable and ranked by install count, and it is current in a way this list cannot be. Publish there instead.
 - **Nothing has happened in a long time.** A repository needs a recent commit and must not be archived. If the author has called it finished, say so in the pull request and the line can carry that.
 - **The showcase claim is not public.** For **Built with Comfy** and **Work made with Comfy**, the Comfy connection has to be stated somewhere a reader can check. Quote that sentence in the pull request and link it. "I am fairly sure they used it" does not clear the bar.
 - **It is a model or a checkpoint.** This list indexes work and tools, not weights.

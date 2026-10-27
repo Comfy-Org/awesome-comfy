@@ -189,47 +189,16 @@ Read the third-party note above before you run any of it.
 
 ## Node packs
 
-Custom nodes are how Comfy grows.
+Custom nodes are how Comfy grows. This list does not rank them: install counts move every day and the registry publishes them live, so a curated twenty here would only ever be a stale copy of a better table. Anything you install through either entry below is third-party code that runs inside your Comfy process, so read the third-party note above first.
 
-### From Comfy
+**Find and install them with:**
 
-**Install and manage them with:**
-
-- [ComfyUI-Manager](https://github.com/Comfy-Org/ComfyUI-Manager) - Installs, updates, disables and security-scans node packs from inside the editor. Most people's entry point to everything below.
-- [Comfy Registry](https://registry.comfy.org/) - The package index. Search it before you install anything from a random clone URL.
+- [ComfyUI-Manager](https://github.com/Comfy-Org/ComfyUI-Manager) - Installs, updates, disables and security-scans node packs from inside the editor. Most people's entry point.
+- [Comfy Registry](https://registry.comfy.org/) - The package index, searchable and ranked by install count. Start here rather than with a clone URL someone pasted in a comment.
 - [Registry overview](https://docs.comfy.org/registry/overview) - What the registry is, how versions and publishers work.
 - [Publishing to the registry](https://docs.comfy.org/registry/publishing) - For node authors shipping a pack, with the [standards](https://docs.comfy.org/registry/standards) a pack is expected to follow and [CI/CD](https://docs.comfy.org/registry/cicd) for publishing on tag.
 - [Installing custom nodes](https://docs.comfy.org/installation/install_custom_node) - The manual route, and what it writes to disk.
 - [Custom node troubleshooting](https://docs.comfy.org/troubleshooting/custom-node-issues) - Import errors, dependency conflicts and how to bisect them.
-
-### From the community
-
-Every pack below is third-party code that runs inside your Comfy process. Read the third-party note above first. They are ordered by Comfy Registry install count, which you can reproduce with:
-
-```
-curl -s "https://api.comfy.org/nodes?page=1&limit=100&sort=total_install%3Bdesc&latest=true"
-```
-
-- [ComfyUI-KJNodes](https://github.com/kijai/ComfyUI-KJNodes) - Large grab-bag of utility nodes, heavy on video, masking and batch helpers.
-- [rgthree-comfy](https://github.com/rgthree/rgthree-comfy) - Graph quality of life: reroutes, muting, seed control, progress bars, bookmarks.
-- [ComfyUI-Easy-Use](https://github.com/yolain/ComfyUI-Easy-Use) - Condensed loader and sampler nodes that collapse common chains into one node.
-- [ComfyUI-VideoHelperSuite](https://github.com/Kosinkadink/ComfyUI-VideoHelperSuite) - Load, batch and recombine video and image sequences.
-- [ComfyUI-Impact-Pack](https://github.com/ltdrdata/ComfyUI-Impact-Pack) - Detection-driven detailing: detectors, detailers, upscalers and pipes.
-- [comfyui_controlnet_aux](https://github.com/Fannovel16/comfyui_controlnet_aux) - The preprocessors ControlNet needs: depth, pose, lineart, normals, segmentation.
-- [ComfyUI_LayerStyle](https://github.com/chflame163/ComfyUI_LayerStyle) - Photoshop-style layer, blend and shadow compositing. Segmentation nodes live in the companion LayerStyle_Advance pack.
-- [cg-use-everywhere](https://github.com/chrisgoringe/cg-use-everywhere) - Broadcasts an output to every matching input, so MODEL, CLIP and VAE wires leave the graph.
-- [ComfyUI-Frame-Interpolation](https://github.com/Fannovel16/ComfyUI-Frame-Interpolation) - Frame interpolation (RIFE, FILM and others) for smoothing video output.
-- [ComfyUI_UltimateSDUpscale](https://github.com/ssitu/ComfyUI_UltimateSDUpscale) - Tiled diffusion upscaling, the Ultimate SD Upscale script as nodes.
-- [ComfyUI-Florence2](https://github.com/kijai/ComfyUI-Florence2) - Florence-2 captioning, grounding and region detection.
-- [was-node-suite-comfyui](https://github.com/WASasquatch/was-node-suite-comfyui) - Image, mask, text, logic and file nodes. The v3 rewrite is on GitHub while the registry still serves an older version.
-- [comfy_mtb](https://github.com/melMass/comfy_mtb) - Animation-oriented utilities: curves, masks and image operations, plus face swap and enhance nodes.
-- [ComfyUI-Image-Saver](https://github.com/alexopus/ComfyUI-Image-Saver) - Saves images with Civitai-compatible generation metadata.
-- [ComfyUI-RMBG](https://github.com/1038lab/ComfyUI-RMBG) - Background removal and segmentation across BiRefNet, BEN2, SAM and others. Check each model's licence, since some are non-commercial.
-- [ComfyUI-Inpaint-CropAndStitch](https://github.com/lquesada/ComfyUI-Inpaint-CropAndStitch) - Crops to the mask before sampling and stitches back after, which makes inpainting much faster.
-- [ComfyUI-Lora-Manager](https://github.com/willmiao/ComfyUI-Lora-Manager) - Manage, download and apply LoRAs and checkpoints, with recipes, previews and Civitai integration.
-- [ComfyUI-Detail-Daemon](https://github.com/Jonseed/ComfyUI-Detail-Daemon) - Adjusts sigmas to control fine detail, ported from sd-webui-Detail-Daemon.
-- [ComfyUI-Advanced-ControlNet](https://github.com/Kosinkadink/ComfyUI-Advanced-ControlNet) - ControlNet scheduling, masking and sliding-window context.
-- [ComfyUI_tinyterraNodes](https://github.com/TinyTerra/ComfyUI_tinyterraNodes) - Pipe-based workflow nodes, an XY plot node and a fullscreen image viewer.
 
 ## Writing your own nodes
 

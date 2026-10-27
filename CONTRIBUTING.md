@@ -27,15 +27,14 @@ For anything in **Built with Comfy** or **Work made with Comfy**:
 9. **It works on current Comfy.** An open report that it breaks on a current release is disqualifying on its own, however popular the project is. A reader who installs something from here and hits an import error is worse off than one who never found it.
 10. **Comfy is load-bearing.** A tool where Comfy is one optional backend among many is not "built with Comfy". The README should say Comfy is what it runs on.
 11. **It is distinct.** If an existing entry covers the same ground, say what yours does differently. Two tools that do the same thing is a reason to replace, not append.
-12. **A node pack is in the registry.** If the submission is a node pack, it is published in the [Comfy Registry](https://registry.comfy.org/).
 
 ## Which heading an entry goes under
 
 Most sections are split into **From Comfy** and **From the community**. The split is about one thing: who built the project at the other end of the link. It says nothing about maintenance or support on either side of it.
 
-13. **From Comfy** is for projects built by Comfy Org's own team. In practice that is the `Comfy-Org` GitHub organisation, `comfy.org` and its subdomains, and the official Discord, forum and YouTube channel. Nothing else qualifies, including a fork of a Comfy Org project. Authorship is the only test. Whether anyone is still maintaining it does not move an entry between headings, and a heading never implies that someone is.
-14. **A partner, customer or integration is not From Comfy.** A hosting provider that runs Comfy, a studio that shipped work with it, a partner model reachable through a Comfy API: all of those are **From the community**. Where a partner model sits behind a Comfy API, the API is Comfy's and the model is the partner's, and the entry follows whichever one it links to.
-15. **Neither heading is a rating.** Do not move an entry between headings to signal quality, maturity or preference, and do not add a third heading for a closer relationship. If affiliation is genuinely unclear, say so in the pull request rather than picking one.
+12. **From Comfy** is for projects built by Comfy Org's own team. In practice that is the `Comfy-Org` GitHub organisation, `comfy.org` and its subdomains, and the official Discord, forum and YouTube channel. Nothing else qualifies, including a fork of a Comfy Org project. Authorship is the only test. Whether anyone is still maintaining it does not move an entry between headings, and a heading never implies that someone is.
+13. **A partner, customer or integration is not From Comfy.** A hosting provider that runs Comfy, a studio that shipped work with it, a partner model reachable through a Comfy API: all of those are **From the community**. Where a partner model sits behind a Comfy API, the API is Comfy's and the model is the partner's, and the entry follows whichever one it links to.
+14. **Neither heading is a rating.** Do not move an entry between headings to signal quality, maturity or preference, and do not add a third heading for a closer relationship. If affiliation is genuinely unclear, say so in the pull request rather than picking one.
 
 **Work made with Comfy** is the exception and carries no headings. The work in that section is always the maker's own, even though most of the links are write-ups published by Comfy.
 
@@ -49,19 +48,12 @@ Most sections are split into **From Comfy** and **From the community**. The spli
 - Link farms, SEO pages, and sites that wrap official documentation in ads.
 - Anything abandoned, however historically important. The git history is still there.
 - Models and checkpoints. This indexes work and tools, not weights.
+- Individual custom node packs. The [Comfy Registry](https://registry.comfy.org/) indexes those, ranked by install count and current to the day, which no handwritten list can match.
 - Forks, unless the fork is now the maintained line and the original is not.
 
 ## Ordering
 
-The node pack section is ordered by Comfy Registry install count, not by preference. The ordering is reproducible:
-
-```
-curl -s "https://api.comfy.org/nodes?page=1&limit=100&sort=total_install%3Bdesc&latest=true"
-```
-
-Do not reorder it by hand. If a pack belongs there, it will arrive on the next refresh.
-
-Other sections lead with the things most worth a reader's first click. That applies to the **From Comfy** and **From the community** headings too: either can come first in a section, whichever puts the better first click at the top. The headings label the groups, they do not rank them.
+Sections lead with the things most worth a reader's first click. That applies to the **From Comfy** and **From the community** headings too: either can come first in a section, whichever puts the better first click at the top. The headings label the groups, they do not rank them.
 
 ## How to propose an addition
 

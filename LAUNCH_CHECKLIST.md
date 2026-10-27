@@ -56,7 +56,7 @@ Worth deciding now rather than during the first incident. Removal is not the onl
 - [ ] **Agree what skips the ladder.** Credential theft, data exfiltration and anything that damages an install come out immediately and get discussed afterwards.
 - [ ] **Decide whether removals are announced.** A silent removal is indistinguishable from a reorganisation. One line in the pull request body costs nothing and makes the list's history readable.
 - [ ] **Decide the re-listing rule.** A project that was removed and then fixed should have a way back, or authors have no incentive to fix anything.
-- [ ] **Decide whether the registry and the list should talk.** A pack banned in the Comfy Registry but still listed here is an inconsistency a reader will find. There is no automation for this, and building some is a larger piece of work than launch needs.
+- [x] **Decide whether the registry and the list should talk.** Moot for the same reason. No pack is listed, so the list cannot contradict a registry ban.
 
 ## Staying current without a dated claim
 
@@ -68,7 +68,7 @@ Nothing in the list carries a date, a count or a status word, and that should ho
 
 - [x] **Add a link checker on a schedule and on pull requests.** `.github/workflows/lint.yml` runs lychee over every markdown file on each pull request, on pushes to `main`, and every Monday. A pull request fails on a dead link. The weekly run does not fail; it opens an issue labelled `report` instead, so rot lands where triage already looks. `.lycheeignore` holds the one URL a machine cannot check, the advisory form, which GitHub shows only to signed-in users.
 - [x] **Add `awesome-lint` to the same workflow.** Running, and the list passes clean today.
-- [ ] **Decide how the node pack ordering gets refreshed.** `CONTRIBUTING.md` publishes the query that reproduces it and says not to reorder by hand, so either someone runs it periodically or it is scripted. Right now it is neither.
+- [x] **Decide how the node pack ordering gets refreshed.** Moot: the list no longer ranks packs. The twenty community entries came out on 2026-10-26 and the section now points at ComfyUI-Manager and the registry, which rank them live. Nothing here needs refreshing.
 - [ ] **Decide whether archived upstream repositories are removed automatically.** GitHub exposes the archived flag, so this is cheap to detect and it is the single highest-signal rot check after dead links.
 
 ## Seeding before launch
