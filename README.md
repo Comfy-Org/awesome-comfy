@@ -4,7 +4,7 @@
 
 For artists who want to see what is possible, and for engineers who want to know where to start.
 
-Inside each section, entries sit under **From Comfy** for what Comfy Org's own team built and **From the community** for everything else. Neither heading says anyone is maintaining the thing, and listing something is not a safety audit. How to read this list, just below, has the detail, and it is worth a minute before you install anything.
+Inside each section, entries sit under **From Comfy** for what Comfy Org's own team built and **From the community** for everything else. How to read this list, just below, says what those headings do and do not tell you, and it is worth a minute before you install anything.
 
 Built something with Comfy? [Add it](SUBMISSION_GUIDELINES.md). Removals are as welcome as additions.
 
