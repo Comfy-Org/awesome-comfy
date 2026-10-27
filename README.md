@@ -2,9 +2,9 @@
 
 > Things people have built with Comfy: apps and plugins people shipped, films and campaigns that aired, and workflows you can run, plus the APIs, SDKs and node packs for building your own.
 
-For artists who want to see what is possible, and for engineers who want to know where to start. New here? Getting started is the second-to-last section.
+For artists who want to see what is possible, and for engineers who want to know where to start.
 
-Inside each section, entries sit under **From Comfy** for what Comfy Org's own team built, and **From the community** for everything else. Neither heading says anyone is maintaining the thing, and listing something is not a safety audit. How to read this list, below, has the detail, and it is worth reading before you install anything.
+Inside each section, entries sit under **From Comfy** for what Comfy Org's own team built and **From the community** for everything else. Neither heading says anyone is maintaining the thing, and listing something is not a safety audit. How to read this list, just below, has the detail, and it is worth a minute before you install anything.
 
 Built something with Comfy? [Add it](SUBMISSION_GUIDELINES.md). Removals are as welcome as additions.
 
@@ -25,11 +25,9 @@ Built something with Comfy? [Add it](SUBMISSION_GUIDELINES.md). Removals are as 
 
 Sections group entries by what you are trying to do. Inside most sections, entries sit under one of two headings.
 
-**From Comfy** means Comfy Org's own team built it. That is the whole claim. Some of it is maintained software on a release cadence, and plenty of it is a demo, an example app or a weekend build that works and that nobody is tending. The heading tells you where a thing came from, not that anyone is on call for it. A problem belongs on that project's own issue tracker, which is the right place to raise it rather than a promise that someone is watching.
+**From Comfy** means Comfy Org's own team built it, and that is the whole claim. Some of it is maintained software on a release cadence, and plenty of it is a demo, an example app or a weekend build that works and that nobody is tending. So a problem belongs on that project's own issue tracker, rather than with someone you have assumed is watching. **From the community** means someone else built it, and it is listed because it is useful.
 
-**From the community** means someone else built it. It is listed because it is useful.
-
-Neither heading is a quality rating, a safety rating or a support commitment. **From Comfy** says who wrote the thing at the other end of the link, and nothing more than that. A partner integration is not a Comfy product either: where a hosted service or a partner model sits behind a Comfy API, the API is Comfy's and the service is the partner's.
+Neither heading is a quality rating, a safety rating or a support commitment. Both say who wrote the thing at the other end of the link, and nothing more than that. A partner integration is not a Comfy product either: where a hosted service or a partner model sits behind a Comfy API, the API is Comfy's and the service is the partner's.
 
 ### Installing third-party projects
 
@@ -77,21 +75,7 @@ Made by other people. Read [Installing third-party projects](#installing-third-p
 - [comfy-reshoot](https://github.com/Comfy-Org/comfy-reshoot) - A workflow-deployment app, built to be cloned and changed.
 - [comfy-openjutsu](https://github.com/Comfy-Org/comfy-openjutsu) - Source and development guide for Openjutsu above, run on your own Comfy deployment.
 
-**One-click deploy examples** from [comfy-examples](https://github.com/Comfy-Org/comfy-examples), each a small complete app with a deploy button:
-
-- [anime-opening-machine](https://github.com/Comfy-Org/comfy-examples/tree/main/anime-opening-machine) - Turns one or two character references and a theme into an eight-frame anime opening, with an optional animation pass.
-- [comfy-radio](https://github.com/Comfy-Org/comfy-examples/tree/main/comfy-radio) - Tune a wooden radio to one of five fictional stations and it writes you an original track.
-- [discord-image-bot](https://github.com/Comfy-Org/comfy-examples/tree/main/discord-image-bot) - A Discord bot that generates images in a channel.
-- [historical-figures-chat](https://github.com/Comfy-Org/comfy-examples/tree/main/historical-figures-chat) - Ask a historical figure a question and get a short video reply.
-- [img2img-web-app](https://github.com/Comfy-Org/comfy-examples/tree/main/img2img-web-app) - Upload an image and get a four-times larger copy back.
-- [impossible-food-network](https://github.com/Comfy-Org/comfy-examples/tree/main/impossible-food-network) - Turns a photo of a meal into a surreal food ad, then a six-second spot.
-- [museum-of-bad-ideas](https://github.com/Comfy-Org/comfy-examples/tree/main/museum-of-bad-ideas) - Gives a questionable doodle six departments' worth of undeserved prestige.
-- [object-removal](https://github.com/Comfy-Org/comfy-examples/tree/main/object-removal) - Mark an unwanted object and let a FLUX Fill workflow rebuild the area.
-- [profile-picture-generator](https://github.com/Comfy-Org/comfy-examples/tree/main/profile-picture-generator) - Eight profile shots from one portrait, in five styles.
-- [room-remix](https://github.com/Comfy-Org/comfy-examples/tree/main/room-remix) - Pick a room and a mood, then move the furniture around.
-- [sketch-to-image](https://github.com/Comfy-Org/comfy-examples/tree/main/sketch-to-image) - Draw a rough guide, describe the result, render it guided by the sketch.
-- [smile-compliance](https://github.com/Comfy-Org/comfy-examples/tree/main/smile-compliance) - People Ops has flagged your photo for insufficient enthusiasm. Works on people, pets, objects and produce.
-- [virtual-try-on](https://github.com/Comfy-Org/comfy-examples/tree/main/virtual-try-on) - Pair a person photo with a garment photo and dress one in the other.
+- [comfy-examples](https://github.com/Comfy-Org/comfy-examples) - Thirteen smaller apps, each a handful of files behind a deploy button: a Discord image bot, object removal, virtual try-on, sketch to image, profile shots and more.
 
 ## Work made with Comfy
 
@@ -154,12 +138,7 @@ Films, campaigns, games and public art. The work is the makers' own, and the cre
 
 ### From Comfy
 
-- [comfy.org/workflows](https://comfy.org/workflows) - Browsable catalogue of runnable workflows with the models each one needs.
-- [Character replacement](https://comfy.org/workflows/use-cases/ai-character-replacement/) - Swapping a character into existing footage.
-- [Image to video](https://comfy.org/workflows/use-cases/ai-image-to-video/) - Animating a still.
-- [Sprite sheets](https://comfy.org/workflows/use-cases/sprite-sheet-generator/) - Game-ready sprite sheet generation.
-- [Restore old photos](https://comfy.org/workflows/use-cases/restore-old-photos/) - Damage repair and colourisation.
-- [Image to 3D](https://comfy.org/workflows/use-cases/image-to-3d/) - Single image to a mesh.
+- [comfy.org/workflows](https://comfy.org/workflows) - Browsable catalogue of runnable workflows with the models each one needs, including walkthroughs for [character replacement](https://comfy.org/workflows/use-cases/ai-character-replacement/), [image to video](https://comfy.org/workflows/use-cases/ai-image-to-video/), [sprite sheets](https://comfy.org/workflows/use-cases/sprite-sheet-generator/), [photo restoration](https://comfy.org/workflows/use-cases/restore-old-photos/) and [image to 3D](https://comfy.org/workflows/use-cases/image-to-3d/).
 - [workflow_templates](https://github.com/Comfy-Org/workflow_templates) - The source of the templates that ship inside Comfy. Open a pull request here to add one.
 - [Using templates](https://docs.comfy.org/interface/features/template) - How the built-in template browser works.
 - [Workflow JSON spec](https://docs.comfy.org/specs/workflow_json) - The on-disk format, for reading or writing workflows programmatically.
@@ -172,24 +151,20 @@ The API surfaces, SDKs and hosted endpoints for driving Comfy from your own code
 ### From Comfy
 
 - [Development overview](https://docs.comfy.org/development/overview) - Map of the API surfaces and which one you want.
-- [API quickstart](https://docs.comfy.org/development/api-development/quickstart) - Submit a workflow and collect the result in a few calls.
-- [Getting an API key](https://docs.comfy.org/development/api-development/getting-an-api-key) - Required for the hosted API.
+- [API quickstart](https://docs.comfy.org/development/api-development/quickstart) - Submit a workflow and collect the result in a few calls, once you have [an API key](https://docs.comfy.org/development/api-development/getting-an-api-key).
 
 **Comfy Router**, one API in front of many hosted image, video and audio models:
 
-- [Router quickstart](https://docs.comfy.org/development/comfy-router/quickstart) - One POST, no graph to build.
+- [Router quickstart](https://docs.comfy.org/development/comfy-router/quickstart) - One POST, no graph to build. The [API reference](https://docs.comfy.org/development/comfy-router/api) covers run, queue, poll and cancel.
 - [Model catalogue](https://docs.comfy.org/development/comfy-router/models) - Every model it can run, with per-model input and output schemas.
 - [Pricing](https://docs.comfy.org/development/comfy-router/pricing) - Per-model cost, which you want before you build on it.
-- [API reference](https://docs.comfy.org/development/comfy-router/api) - Run, queue, poll and cancel.
 
 **Developer Platform**, for running your own workflows as a service:
 
 - [Cloud API overview](https://docs.comfy.org/development/cloud/overview) - Assets, jobs, queue and history against hosted Comfy.
 - [Serverless overview](https://docs.comfy.org/development/serverless/overview) - Turn a workflow into an endpoint you can call.
 
-**SDKs:**
-
-- [SDK overview](https://docs.comfy.org/development/api-development/sdks) - What the clients cover and the shape they share.
+**SDKs**, which [cover the same ground in the same shape](https://docs.comfy.org/development/api-development/sdks):
 - [Python SDK](https://github.com/Comfy-Org/comfy-python-sdk) - Client for self-hosted Comfy and Comfy Cloud.
 - [TypeScript SDK](https://github.com/Comfy-Org/comfy-typescript-sdk) - Node client for the Comfy API v2, against Comfy Cloud, serverless or a self-hosted proxy.
 - [Swift SDK](https://github.com/Comfy-Org/comfy-swift-sdk) - Thin client: submit, stream, collect outputs.
@@ -202,9 +177,7 @@ The API surfaces, SDKs and hosted endpoints for driving Comfy from your own code
 
 **Talking to a Comfy server directly:**
 
-- [Server API overview](https://docs.comfy.org/development/comfyui-server/comms_overview) - The REST and WebSocket model the editor itself uses.
-- [Route reference](https://docs.comfy.org/development/comfyui-server/comms_routes) - Every endpoint a running server exposes.
-- [API examples](https://docs.comfy.org/development/comfyui-server/api-examples) - Working scripts for queueing prompts and reading results.
+- [Server API overview](https://docs.comfy.org/development/comfyui-server/comms_overview) - The REST and WebSocket model the editor itself uses, with a [reference for every route](https://docs.comfy.org/development/comfyui-server/comms_routes) and [working scripts](https://docs.comfy.org/development/comfyui-server/api-examples) for queueing prompts and reading results.
 - [comfy-api-proxy](https://github.com/Comfy-Org/comfy-api-proxy) - Puts the v2 API in front of a self-hosted instance, so one client works against both.
 
 ### From the community
@@ -227,9 +200,7 @@ Custom nodes are how Comfy grows.
 - [ComfyUI-Manager](https://github.com/Comfy-Org/ComfyUI-Manager) - Installs, updates, disables and security-scans node packs from inside the editor. Most people's entry point to everything below.
 - [Comfy Registry](https://registry.comfy.org/) - The package index. Search it before you install anything from a random clone URL.
 - [Registry overview](https://docs.comfy.org/registry/overview) - What the registry is, how versions and publishers work.
-- [Publishing to the registry](https://docs.comfy.org/registry/publishing) - For node authors shipping a pack.
-- [Node standards](https://docs.comfy.org/registry/standards) - The naming, metadata and dependency rules a pack is expected to follow.
-- [Registry CI/CD](https://docs.comfy.org/registry/cicd) - Publish on tag from GitHub Actions.
+- [Publishing to the registry](https://docs.comfy.org/registry/publishing) - For node authors shipping a pack, with the [standards](https://docs.comfy.org/registry/standards) a pack is expected to follow and [CI/CD](https://docs.comfy.org/registry/cicd) for publishing on tag.
 - [Installing custom nodes](https://docs.comfy.org/installation/install_custom_node) - The manual route, and what it writes to disk.
 - [Custom node troubleshooting](https://docs.comfy.org/troubleshooting/custom-node-issues) - Import errors, dependency conflicts and how to bisect them.
 
@@ -296,17 +267,13 @@ Independent providers and images. Comfy Org does not operate these services, hol
 ### From Comfy
 
 - [ComfyUI](https://github.com/Comfy-Org/ComfyUI) - The node-graph engine itself: a workflow runner for diffusion models with a Python backend.
-- [Download page](https://comfy.org/download) - Picks the right install path for your machine.
-- [System requirements](https://docs.comfy.org/installation/system_requirements) - Read this before you pick an install method.
+- [Download page](https://comfy.org/download) - Picks the right install path for your machine. Check the [system requirements](https://docs.comfy.org/installation/system_requirements) first.
 - [Desktop app](https://docs.comfy.org/installation/desktop/overview) - Packaged installer for Windows, macOS and Linux. The shortest path to a working setup.
 - [Comfy Desktop source](https://github.com/Comfy-Org/Comfy-Desktop) - The official desktop app: installs and manages multiple Comfy setups side by side.
-- [Manual install](https://docs.comfy.org/installation/manual_install) - Clone and pip, for when you want to control the Python environment.
-- [Portable Windows build](https://docs.comfy.org/installation/comfyui_portable_windows) - Self-contained folder, no installer, no system Python.
-- [Your first generation](https://docs.comfy.org/get_started/first_generation) - Walks a default workflow end to end and explains what each node did.
-- [Interface tour](https://docs.comfy.org/interface/overview) - The canvas, the queue, the model library and the settings that matter early.
+- [Manual install](https://docs.comfy.org/installation/manual_install) - Clone and pip, for when you want to control the Python environment. Windows also has a [portable build](https://docs.comfy.org/installation/comfyui_portable_windows): one folder, no installer, no system Python.
+- [Your first generation](https://docs.comfy.org/get_started/first_generation) - Walks a default workflow end to end and explains what each node did. The [interface tour](https://docs.comfy.org/interface/overview) covers the canvas, the queue and the model library.
 - [Comfy Cloud](https://docs.comfy.org/get_started/cloud) - Hosted Comfy, for when you do not have the GPU.
-- [comfy-cli](https://github.com/Comfy-Org/comfy-cli) - Command-line installer and manager for Comfy, models and node packs.
-- [comfy-cli docs](https://docs.comfy.org/comfy-cli/getting-started) - Install, launch, snapshot and switch between versions.
+- [comfy-cli](https://github.com/Comfy-Org/comfy-cli) - Command-line installer and manager for Comfy, models and node packs. [Its docs](https://docs.comfy.org/comfy-cli/getting-started) cover launching, snapshots and switching versions.
 - [Troubleshooting](https://docs.comfy.org/troubleshooting/overview) - Start here when something breaks, before opening an issue.
 
 ## Learning
